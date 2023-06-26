@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Ezediniru Daniel</title>
         <meta name="viewport" content="width-device-width, initial-scale=1" />
-        <meta name="description" content="'Ezediniru Daniel || @amdanielbrytre'">
+        <meta name="description" content="Ezediniru Daniel || @amdanielbrytre"/>
       </Head>
     
         <AnimatePresence mode="wait">
