@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
 
 
   return (
-    <>
       <html lang="en">
       <Head>
         <title>Ezediniru Daniel</title>
@@ -107,6 +106,5 @@ export default function RootLayout({ children }) {
           </motion.body>
         </AnimatePresence>
       </html >
-    </>
   )
 }
