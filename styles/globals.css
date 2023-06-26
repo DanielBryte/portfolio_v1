@@ -11,11 +11,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  max-width: 100%;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
-  --border-radius: 5px;
   --background-color: #040203;
   --text-color: #ffffff;
   --text-color-black: #000000;
@@ -24,22 +25,11 @@
   --px-gray: #a7a7a7;
 }
 
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
 }
-
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-
-
-
 
 .home,
 .about,
@@ -133,8 +123,8 @@ li {
 
 .cta .mail {
   position: fixed;
-  top: 70%;
-  right: -6%;
+  top: 65%;
+  right: -9%;
   display: inline-flex;
   gap: 2rem;
   transform: rotate(-90deg);
@@ -167,8 +157,298 @@ li {
 }
 
 
+
 @import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
 
 
 
 
+
+/***  RESPONSIVENESS     ***/
+/***  RESPONSIVE DESIGN ***/
+
+@media (max-width: 1536px) {
+
+
+  .home .profile h1 {
+    font-size: 6.5rem;
+  }
+}
+
+
+@media (max-width: 1465px) {
+
+  .cta .social,
+  .cta .mail {
+    display: none !important;
+  }
+
+  header {
+    height: 12%;
+    background: var(--background);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(19, 19, 19, 0.3);
+  }
+
+}
+
+@media (max-width: 1280px) {
+
+
+  .home .profile h1 {
+    font-size: 4.8rem;
+  }
+
+  /* portfolio */
+  .works {
+    justify-content: start;
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  /* Navigation */
+  .header {
+    padding: 1rem 1.2rem;
+    justify-content: space-between;
+
+  }
+
+  /* Home */
+
+  .home .profile h1 {
+    font-size: 4.5rem;
+  }
+
+  /* About */
+  .about .profile {
+    flex-wrap: wrap;
+  }
+
+  .background-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .background-tl-container {
+    margin: 0 auto;
+  }
+
+  /* portfolio */
+  .works {
+    overflow-x: scroll;
+  }
+
+
+  /* Gray scrollbar */
+  .works::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .works::-webkit-scrollbar-track {
+    background-color: #666;
+  }
+
+  .works::-webkit-scrollbar-thumb {
+    background-color: #131313;
+    height: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  /* Home responsiveness */
+  .home .profile h1 {
+    font-size: 3rem;
+  }
+
+  .home .profile h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Porfolio */
+  .works {
+    gap: 2rem;
+  }
+
+  /* Navbar */
+  .nav-links * {
+    font-size: 1.8rem;
+  }
+
+  /* Page Animation Text */
+  .container div {
+    font-size: 4rem;
+  }
+
+}
+
+
+@media (max-width: 640px) {
+
+  /* Globals Responsiveness */
+  .section .section-heading {
+    padding-top: 4.8rem;
+    padding-bottom: 4rem;
+  }
+
+  .section h1 {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    line-height: 54px;
+    padding: 1.4rem 0;
+  }
+
+  .section h2 {
+    font-size: 1.2rem;
+    padding-top: 1.4rem;
+    line-height: 35px;
+  }
+
+  .section .inner-heading {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about .inner-heading h1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 32px;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--px-gray);
+    position: relative;
+  }
+
+  .about .inner-heading h2 {
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  /* Home responsiveness */
+  .home .profile h1 {
+    font-size: 2.6rem;
+  }
+
+  .home .profile h2 {
+    font-size: 1rem;
+  }
+
+
+  /* About */
+
+  .about .profile {
+    padding: 0rem 0.8rem;
+    gap: 0rem;
+  }
+
+  .about-img {
+    padding: 1rem 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .about .bio {
+    gap: 2rem;
+  }
+
+  .about .bio h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 34px;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .background-tl-container ul.tl li .timestamp {
+    left: -78%;
+    top: 4%;
+  }
+
+  .about .skills {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+
+  /* Portfolio */
+
+  .works {
+    gap: 1rem;
+  }
+
+  .works button {
+    padding: 0.6rem 2rem;
+  }
+
+  .portfolio-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  .portfolio-flex {
+    margin: 0.6rem;
+  }
+
+  .portfolio-card {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 19px;
+  }
+
+  .card-description {
+    gap: 1.5rem;
+  }
+
+  .card-links button {
+    text-transform: uppercase;
+  }
+
+
+  /* Page Animation Text */
+  .container div {
+    font-size: 4.2rem;
+  }
+
+  /* Navbar */
+  .header .logo {
+    top: 1.5rem;
+    left: 1.2rem;
+    width: 51px;
+    height: 30px;
+  }
+
+  .navbar input[type="checkbox"] {
+    top: 1.6rem;
+    right: 1.2rem;
+  }
+
+  .navbar .hamburger-lines {
+    top: 1.6rem;
+    right: 1.2rem;
+    height: 25px;
+  }
+
+  .nav-links {
+    gap: 4rem;
+  }
+
+  .nav-links * {
+    font-size: 1.5rem;
+  }
+}
