@@ -2,7 +2,7 @@ My Personal Portfolio
 
 ## You can view here:
 
-(Ezediniru Daniel)[https://www.ezediniru.com]
+[Ezediniru Daniel](https://www.ezediniru.com)
 
 ## Or
 
