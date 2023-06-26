@@ -2,8 +2,6 @@
 
 import Social from "/components/Socials";
 import "/styles/globals.css";
-
-import Head from "next/head";
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from 'next/navigation'
 import { useState } from "react";
@@ -29,12 +27,6 @@ export default function RootLayout({ children }) {
 
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width-device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-
       <html lang="en">
         <AnimatePresence mode="wait">
           <motion.body
