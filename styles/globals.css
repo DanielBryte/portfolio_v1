@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --border-radius: 5px;
+  --background-color: #040203;
+  --text-color: #ffffff;
+  --text-color-black: #000000;
+  --inactive-text-color: #a7a7a7;
+  --font-family: "Segoe UI", sans-serif;
+  --px-gray: #a7a7a7;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
