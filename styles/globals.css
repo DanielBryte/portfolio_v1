@@ -1,3 +1,12 @@
+@import url(navbar.css);
+@import url(home.css);
+@import url(about.css);
+@import url(portfolio.css);
+@import url(pageAnimation.css);
+@import url(contact.css);
+@import url(footer.css);
+
+
 * {
   padding: 0;
   margin: 0;
@@ -27,4 +36,139 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+
+
+
+.home,
+.about,
+.portfolio,
+.contact {
+  height: 100%;
+}
+
+
+/* sections */
+.section {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.section .section-heading {
+  padding: 5rem 0.8rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 64px;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--px-gray);
+  position: relative;
+}
+
+.section-heading h1:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  height: 5px;
+  width: 10%;
+  background: var(--text-color);
+}
+
+.section h2 {
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 45px;
+}
+
+.section .inner-heading {
+  padding: 2rem 1rem;
+  padding-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .inner-heading h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 52px;
+  padding: 1.2rem 0;
+  padding-top: 2rem;
+  border-bottom: 1px solid var(--px-gray);
+  position: relative;
+}
+
+.section .inner-heading h2 {
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 38px;
+}
+
+
+
+a {
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+.cta .mail {
+  position: fixed;
+  top: 70%;
+  right: -6%;
+  display: inline-flex;
+  gap: 2rem;
+  transform: rotate(-90deg);
+}
+
+.mail p,
+.social p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cta .social {
+  position: fixed;
+  top: 70%;
+  left: -6%;
+  display: inline-flex;
+  gap: 2rem;
+  transform: rotate(-90deg);
+}
+
+.social a {
+  transform: rotate(90deg);
+
+  transition: all .3s ease-in-out;
+}
+
+.social a:hover {
+  transform: scale(1.15);
+}
+
+
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+
+
+
 
