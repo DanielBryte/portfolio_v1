@@ -7,12 +7,8 @@ import { usePathname } from 'next/navigation'
 import { useState } from "react";
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from "next/head";
 
-
-export const metadata = {
-  title: 'Ezediniru Daniel',
-  description: 'Ezediniru Daniel || @amdanielbrytre',
-}
 
 export default function RootLayout({ children }) {
 
@@ -28,6 +24,12 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="en">
+      <Head>
+        <title>Ezediniru Daniel</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
+        <meta name="description" content="'Ezediniru Daniel || @amdanielbrytre'">
+      </Head>
+    
         <AnimatePresence mode="wait">
           <motion.body
             key={pathname.route}
