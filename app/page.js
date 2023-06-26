@@ -1,20 +1,12 @@
 "use client";
-import Head from "next/head";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 
 
 
 export default function Home({ title, description }) {
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description}/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preload" href="/home-bg.svg" as="image" />
-      </Head>
 
       <main className="body" style={{
         backgroundImage: 'url("/home-bg.svg")',
