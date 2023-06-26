@@ -1,0 +1,141 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.works {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3.5rem;
+    overflow-x: hidden;
+    padding: 0.4rem;
+    white-space: nowrap;
+}
+
+.works button {
+    padding: 0.8rem 3.5rem;
+    background-color: var(--text-color);
+    color: var(--text-color-black);
+    border: 0;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.works button:hover,
+.works .active {
+    background-color: var(--background);
+    color: var(--text-color);
+    outline: 0.5px solid var(--text-color);
+}
+
+.select-wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    display: none;
+}
+
+.filter-select {
+    display: inline-flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+
+
+
+.portfolio-wrapper {
+    position: relative;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.portfolio-flex {
+    display: inline-flex;
+    margin: 0.8rem;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: #131313;
+
+}
+
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+}
+
+.portfolio-img * {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-detail {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.card-detail .category {
+    text-align: left;
+    font-size: 8.6px;
+    padding: 0.4rem 0.5rem;
+    margin-top: 8px;
+    border-radius: 4px;
+    width: fit-content;
+    background-color: #eeeeee1d;
+    font-weight: 500;
+    line-height: 7px;
+    letter-spacing: 0.5px;
+    color: #b2b2b2;
+}
+
+.card-description {
+    display: inline-flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+
+.card-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.card-links .github {
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+
+
+.card-links button {
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    padding: 14px 14px;
+    border: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.card-links button:hover,
+.card-links .github:hover {
+    transform: scale(1.05);
+}
