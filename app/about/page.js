@@ -146,7 +146,7 @@ function About() {
                     Jan 2020 - Dec 2024
                   </div>
                   <div class="item-title">B.ENG in Electrical,Electronics Engineering</div>
-                  <div class="item-detail">A Bachelor Degree in Engineering in view(Second Class Upper).</div>
+                  <div class="item-detail">A Bachelor Degree in Engineering in view - Second Class Upper.</div>
                 </li>
 
                 <li class="tl-item">
