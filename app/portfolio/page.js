@@ -5,11 +5,14 @@ import Head from 'next/head'
 import Filter from '/components/Filter'
 import { motion } from 'framer-motion'
 import Footer from '/components/Footer'
+import PageAnimation from "components/PageAnimation";
+
 
 
 const index = () => {
     return (
         <>
+        <PageAnimation/>
             <Head>
                 <title>My Works</title>
                 <meta name="description" content="@amdanielbryte" />

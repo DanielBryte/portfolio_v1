@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    width: 100%;
+    pointer-events: none;
+    z-index: 1000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container div {
+    overflow: hidden;
+    top: 0;
+    animation: opened 1.6s backwards;
+    animation-delay: .16s;
+    display: flex;
+    align-items: center;
+    font-size: 10rem;
+}
+
+@keyframes opened {
+    from {
+        width: 50vw;
+    }
+
+    to {
+        width: 0vw;
+    }
+}
+
+.joinLeft {
+    display: flex;
+    justify-content: right;
+    width: 0vw;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    transform-origin: left;
+    background-color: black;
+    font-weight: 700;
+}
+
+.joinRight {
+    justify-content: left;
+    position: absolute;
+    right: 0;
+    display: flex;
+    background-color: black;
+    width: 0vw;
+    height: 100%;
+    transform-origin: right;
+    font-weight: 700;
+}
+

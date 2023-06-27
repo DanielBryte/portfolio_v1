@@ -3,6 +3,9 @@
 import { motion } from "framer-motion";
 import Footer from "/components/Footer";
 import { useState } from "react";
+import PageAnimation from "components/PageAnimation";
+
+
 
 const Index = () => {
 
@@ -46,7 +49,7 @@ const Index = () => {
 
     return (
         <>
-
+        <PageAnimation/>
             <motion.main
                 className="contact"
                 initial={{ y: 25, opacity: 0 }}

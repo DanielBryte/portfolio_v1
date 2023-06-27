@@ -4,11 +4,13 @@ import Image from "next/image";
 import Picture from "/public/picture.png";
 import { motion } from "framer-motion";
 import Footer from "/components/Footer";
+import PageAnimation from "components/PageAnimation";
 
 
 function About() {
   return (
     <>
+    <PageAnimation/>
       <motion.main
         className="about"
         initial={{ y: 25, opacity: 0 }}

@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import PageAnimation from "components/PageAnimation";
 
 
 
 export default function Home({ title, description }) {
   return (
     <>
-
+<PageAnimation/>
       <main className="body" style={{
         backgroundImage: 'url("/home-bg.svg")',
         backgroundPosition: 'center',
