@@ -23,7 +23,7 @@ const Index = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch("/api/contact", {
+            const response = await fetch("/contact", {
                 method: "POST",
                 headers: {
                     Accept: "application/json, text/plain, */*",
