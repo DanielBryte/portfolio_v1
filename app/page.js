@@ -2,26 +2,35 @@
 
 import { motion } from "framer-motion";
 import PageAnimation from "components/PageAnimation";
+import HomeBg from "public/home-bg.svg";
+import Image from "next/image";
 
+export default function Home() {
 
-
-export default function Home({ title, description }) {
+  
   return (
     <>
 <PageAnimation/>
-      <main className="body" style={{
-        backgroundImage: 'url("/home-bg.svg")',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        priority: true,
-      }}>
+
+      <main className="body">
+      <Image
+      className="home-bg"
+          width="100%"
+          height="100%"
+          sizes="100vw"
+          src={HomeBg}
+          style={{
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            priority: true,
+           }}
+          />
         <motion.section
           className="home"
           initial={{ y: 25, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
-            delay: 1.7,
+            delay: 1.0,
             duration: 0.75,
 
           }}
