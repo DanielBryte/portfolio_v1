@@ -22,12 +22,12 @@ function About() {
         <section className="section">
           <div className="section-heading">
             <h1>About</h1>
-            <h2>This comprises my experience in tech, from content creation to web, mobile development, and UI/UX design. I don’t just code or design. I also build and create problem solving products and insightful content.</h2>
+            <h2>This comprises my experience in tech, from content creation to web, mobile development, and UI/UX design. I don't just code or design. I also build and create problem solving products and insightful content.</h2>
           </div>
 
           <div className="profile">
             <div>
-              <Image className="about-img" src={Picture} width="473" height="580" />
+              <Image className="about-img" src={Picture} width="473" height="580" alt="Daniel Picture"/>
             </div>
 
             <div className="bio">
@@ -35,7 +35,7 @@ function About() {
               <h2>Ezediniru Daniel</h2>
 
               <p>Hi, I am a Frontend Engineer and a Product Designer passionate about solving real-life problems through technological skills.</p>
-              <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry’s standard, looking forward to the exciting challenges that lie ahead.</p>
+              <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry's standard, looking forward to the exciting challenges that lie ahead.</p>
 
               <a href="/contact" className="button">Get In Touch</a>
             </div>
@@ -180,23 +180,23 @@ function About() {
 
           <div className="skills-wrapper">
             <div className="skills">
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Bootstrap&color=7952B3&logo=Bootstrap&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Jamstack&color=F0047F&logo=Jamstack&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Git&color=F05032&logo=Git&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Next.js&color=000000&logo=Next.js&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Flutter&color=02569B&logo=Flutter&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Dart&color=0175C2&logo=Dart&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=MongoDB&color=47A248&logo=MongoDB&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Firebase&color=222222&logo=Firebase&logoColor=FFCA28&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Supabase&color=222222&logo=Supabase&logoColor=3ECF8E&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=" />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label=" />
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=" alt="html" width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=" alt="css" width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=" alt="javascript" width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Bootstrap&color=7952B3&logo=Bootstrap&logoColor=FFFFFF&label=" alt="boostrap" width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=" alt="tailwindCSS"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Jamstack&color=F0047F&logo=Jamstack&logoColor=FFFFFF&label=" alt="Jamstack"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=" alt="github"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Git&color=F05032&logo=Git&logoColor=FFFFFF&label=" alt="gi"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label="alt="react" width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Next.js&color=000000&logo=Next.js&logoColor=FFFFFF&label=" alt="nextJS"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Flutter&color=02569B&logo=Flutter&logoColor=FFFFFF&label=" alt="flutter"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Dart&color=0175C2&logo=Dart&logoColor=FFFFFF&label=" alt="dart"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=MongoDB&color=47A248&logo=MongoDB&logoColor=FFFFFF&label=" alt="mongoDB"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Firebase&color=222222&logo=Firebase&logoColor=FFCA28&label=" alt="firebase"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Supabase&color=222222&logo=Supabase&logoColor=3ECF8E&label=" alt="supabase"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=" alt="python"width={20} height={40}/>
+              <Image src="https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label=" alt="figma" width={20} height={40}/>
             </div>
           </div>
         </section>
