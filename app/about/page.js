@@ -22,7 +22,7 @@ function About() {
         <section className="section">
           <div className="section-heading">
             <h1>About</h1>
-            <h2>This comprises my experience in tech, from content creation to web, mobile development, and UI/UX design. I don't just code or design. I also build and create problem solving products and insightful content.</h2>
+            <h2>This comprises my experience in tech, from content creation to web, mobile development, and UI/UX design. I don&apos;t just code or design. I also build and create problem solving products and insightful content.</h2>
           </div>
 
           <div className="profile">
@@ -35,7 +35,7 @@ function About() {
               <h2>Ezediniru Daniel</h2>
 
               <p>Hi, I am a Frontend Engineer and a Product Designer passionate about solving real-life problems through technological skills.</p>
-              <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry's standard, looking forward to the exciting challenges that lie ahead.</p>
+              <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry&apos;s standard, looking forward to the exciting challenges that lie ahead.</p>
 
               <a href="/contact" className="button">Get In Touch</a>
             </div>
@@ -114,7 +114,7 @@ function About() {
                     Jan 2023 - Present
                   </div>
                   <div class="item-title">Open Source Builder and Contributor</div>
-                  <div class="item-detail">Built an Open Source Product recently, and i'm active open source contributor.</div>
+                  <div class="item-detail">Built an Open Source Product recently, and i&apos;m active open source contributor.</div>
                 </li>
 
                 <li class="tl-item">
@@ -146,7 +146,7 @@ function About() {
                     Jan 2020 - Dec 2024
                   </div>
                   <div class="item-title">B.ENG in Electrical,Electronics Engineering</div>
-                  <div class="item-detail">A Bachelor Degree in Engineering in view - Second Class Upper.</div>
+                  <div class="item-detail">A Bachelor Degree in Engineering in view (Second Class Upper).</div>
                 </li>
 
                 <li class="tl-item">
