@@ -14,16 +14,16 @@ const Socials = () => {
             <div className="social">
                 <p>Follow</p>
                 <a href="https://www.linkedin.com/in/danielbryte/">
-                    <Image src="/socials/linkedin.svg" width="25" height="25" />
+                    <Image src="/socials/linkedin.svg" width="25" height="25" alt='Linkedin'/>
                 </a>
                 <a href="https://twitter.com/amdanielbryte">
-                    <Image src="/socials/twitter.svg" width="25" height="25" />
+                    <Image src="/socials/twitter.svg" width="25" height="25" alt='Twitter'/>
                 </a>
                 <a href="https://www.instagram.com/amdanielbryte/">
-                    <Image src="/socials/instagram.svg" width="25" height="25" />
+                    <Image src="/socials/instagram.svg" width="25" height="25" alt='Instagram'/>
                 </a>
                 <a href="https://github.com/DanielBryte">
-                    <Image src="/socials/github.svg" width="25" height="25" />
+                    <Image src="/socials/github.svg" width="25" height="25" alt='Github'/>
                 </a>
             </div>
         </main>
