@@ -1,4 +1,4 @@
-import data from'/data/data.json'
+import data from '/data/data.json'
 import Image from 'next/image';
 import GithubIcon from '/public/portfolio/github.svg';
 
@@ -9,11 +9,12 @@ const Web = () => {
             {data.webs.map((item) => (
 
                 < PortfolioCard
-                    title = { item.title }
-                    github = { item.github }
-                    category = { item.category}
-                    image = { item.image }
-                    projectLink = { item.projectLink }
+                    key={item}
+                    title={item.title}
+                    github={item.github}
+                    category={item.category}
+                    image={item.image}
+                    projectLink={item.projectLink}
                 />
             ))}
         </span>

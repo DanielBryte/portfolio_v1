@@ -1,4 +1,4 @@
-import data from'/data/data.json'
+import data from '/data/data.json'
 import Image from 'next/image';
 
 const Design = () => {
@@ -6,12 +6,13 @@ const Design = () => {
     return (
         <span>
             {data.designs.map((item) => (
-                
+
                 < PortfolioCard
-                    title = { item.title }
-                    category = { item.category}
-                    image = { item.image }
-                    projectLink = { item.projectLink }
+                    key={item}
+                    title={item.title}
+                    category={item.category}
+                    image={item.image}
+                    projectLink={item.projectLink}
                 />
             ))}
         </span>

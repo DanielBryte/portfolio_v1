@@ -9,6 +9,7 @@ const AI = () => {
         {data.ai.map((item) => (
 
             < PortfolioCard
+                key={item}
                 title = { item.title }
                 github = { item.github }
                 category = { item.category}
