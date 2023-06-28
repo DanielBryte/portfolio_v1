@@ -1,6 +1,8 @@
 .home-bg{
   position: absolute;
   z-index: -5;
+  min-height: 100vh !important;
+  object-fit: cover;
 }
 
 .home .profile{
