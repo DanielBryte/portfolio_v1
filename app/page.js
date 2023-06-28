@@ -15,14 +15,12 @@ export default function Home() {
       <main className="body">
       <Image
       className="home-bg"
-          width="100%"
-          height="100%"
-          sizes="100vw"
+          width="100vw"
+          height="100vh"
           src={HomeBg}
           style={{
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
             priority: true,
+            position: 'fixed',
            }}
           />
         <motion.section
