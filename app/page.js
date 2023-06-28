@@ -17,9 +17,9 @@ export default function Home() {
       className="home-bg"
           width="100vw"
           height="100vh"
+          priority 
           src={HomeBg}
           style={{
-            priority: true,
             position: 'fixed',
            }}
           />

@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
           >              <header className="header">
               <nav className='navbar'>
                 <Link href="/" className="logo">
-                  <Image src="/logo.svg" width="61" height="40" alt="logo" />
+                  <Image src="/logo.svg" width="61" height="40" alt="logo" priority/>
                 </Link>
 
 
