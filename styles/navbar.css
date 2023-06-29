@@ -20,6 +20,12 @@ header {
     left: 2rem;
   }
   
+
+  
+.logo-img{
+  width: 61px;
+  height: 40px;
+}
   
   /* .header .navbar ul {
       padding: 0 6rem;

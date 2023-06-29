@@ -3,6 +3,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
+import Logo from '/public/logo.svg'
 
 
 const Nav = () => {
@@ -18,15 +19,15 @@ const Nav = () => {
                 <header className="header">
                     <nav className='navbar'>
                         <Link href="/" className="logo">
-                            <Image src="/logo.svg" width="61" height="40" alt="logo" priority />
+                            <Image src={Logo} className='logo-img' width="100%" height="100%" alt="logo" priority />
                         </Link>
 
 
 
                         <div class="hamburger">
-                            <input type="checkbox" name="" id="hamburgerCheckbox" checked={isMenuOpen}
+                            <input type="checkbox" name="checkbox" id="hamburgerCheckbox" checked={isMenuOpen}
                                 onChange={handleCheckboxChange} />
-                            <label class="hamburger-lines" htmlFor="hamburgerCheckbox">
+                            <label class="hamburger-lines" for="hamburgerCheckbox">
                                 <span class="line line1"></span>
                                 <span class="line line2"></span>
                                 <span class="line line3"></span>

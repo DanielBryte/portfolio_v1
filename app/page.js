@@ -23,6 +23,7 @@ const Home =() => {
             lazy
             placeholder="blur"
             src={HomeImg}
+            alt="Ezediniru Daniel"
             blurDataURL="LJDT9WMxlVt7?wkCXTtR%Ma|V?of"
           />
         </div>
