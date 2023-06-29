@@ -18,7 +18,7 @@ const Nav = () => {
                 <header className="header">
                     <nav className='navbar'>
                         <Link href="/" className="logo">
-                            <Image src={Logo} className='logo-img' width="60" height="40" alt="logo" priority />
+                            <Image src={Logo} className='logo-img' width="57" height="35" alt="logo" priority />
                         </Link>
 
 
