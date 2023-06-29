@@ -8,17 +8,10 @@ import Footer from '/components/Footer'
 import PageAnimation from "components/PageAnimation";
 
 
-
 const index = () => {
     return (
         <>
         <PageAnimation/>
-            <Head>
-                <title>My Works</title>
-                <meta name="description" content="@amdanielbryte" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-            </Head>
-
             <motion.main className='portfolio'
                 initial={{ y: 25, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}

@@ -5,24 +5,25 @@ import PageAnimation from "components/PageAnimation";
 import HomeImg from "public/home-img.png";
 import Image from "next/image";
 
-export default function Home() {
 
-  
+const Home =() => {
+
+
   return (
-    <>
-<PageAnimation/>
+    <div>
+      <PageAnimation />
 
       <main className="body">
         <div className="img-wrap">
-        <Image
-      className="home-img"
-          width="100%"
-          height="100%"
-          priority
-          lazy
-          placeholder="blur"
-          src={HomeImg}
-          blurDataURL="LJDT9WMxlVt7?wkCXTtR%Ma|V?of"
+          <Image
+            className="home-img"
+            width="100%"
+            height="100%"
+            priority
+            lazy
+            placeholder="blur"
+            src={HomeImg}
+            blurDataURL="LJDT9WMxlVt7?wkCXTtR%Ma|V?of"
           />
         </div>
 
@@ -47,6 +48,9 @@ export default function Home() {
           </div>
         </motion.section>
       </main>
-    </>
+    </div>
   )
 }
+
+
+export default Home
