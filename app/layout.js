@@ -11,13 +11,7 @@ export const metadata = {
     description: 'Frontend engineer and product Designer with 3 years of building experience',
     url: 'https://www.ezediniru.com',
     siteName: 'Daniel Bryte Portfolio',
-    images:
-      {
-        url: 'https://res.cloudinary.com/dhq4zyjbq/image/upload/v1688046890/portfolio_assets/ezediniru-daniel_ox0xmi.png',
-        width: 1800,
-        height: 1600,
-        alt: 'Ezediniru Daniel Portfolio',
-      },
+    images: ['https://res.cloudinary.com/dhq4zyjbq/image/upload/v1688046890/portfolio_assets/ezediniru-daniel_ox0xmi.png',],
     locale: 'en_UK',
     type: 'website',
   },
