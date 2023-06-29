@@ -1,6 +1,7 @@
 import data from '/data/data.json'
 import Image from 'next/image';
 import GithubIcon from '/public/portfolio/github.svg';
+import Lazy from '/public/lazy.png'
 
 const Web = () => {
 
@@ -40,8 +41,7 @@ const PortfolioCard = ({
                                 alt={title}
                                 width="350"
                                 height="228"
-                                placeholder='blur'
-                                blurDataURL='LJDT9WMxlVt7?wkCXTtR%Ma|V?of'
+                                placeholder={Lazy}
                             />
                         )}
                     </span>
