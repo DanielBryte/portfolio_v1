@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import PageAnimation from "components/PageAnimation";
-import HomeBg from "public/home-bg.svg";
+import HomeImg from "public/home-img.png";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,16 +13,19 @@ export default function Home() {
 <PageAnimation/>
 
       <main className="body">
-      <Image
-      className="home-bg"
-          width="100vw"
-          height="100vh"
-          priority 
-          src={HomeBg}
-          style={{
-            position: 'fixed',
-           }}
+        <div className="img-wrap">
+        <Image
+      className="home-img"
+          width="100%"
+          height="100%"
+          priority
+          lazy
+          placeholder="blur"
+          src={HomeImg}
+          blurDataURL="LJDT9WMxlVt7?wkCXTtR%Ma|V?of"
           />
+        </div>
+
         <motion.section
           className="home"
           initial={{ y: 25, opacity: 0 }}
