@@ -38,6 +38,9 @@ const PortfolioCard = ({
                                 alt={title}
                                 width="350"
                                 height="228"
+                                placeholder='blur'
+                                blurDataURL='LJDT9WMxlVt7?wkCXTtR%Ma|V?of'
+
                             />
                         )}
                     </span>
