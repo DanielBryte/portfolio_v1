@@ -7,7 +7,7 @@ export const metadata = {
   description: "Ezediniru Daniel || @amdanielbrytre",
 }
 
-const RootLayout = ({children}) => {
+const RootLayout = ({ children }) => {
 
 
   return (
@@ -19,12 +19,12 @@ const RootLayout = ({children}) => {
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed'
       }}>
-       <Nav/>
+        <Nav />
         <Social />
         {children}
       </body>
     </html >
   )
-    }
+}
 
 export default RootLayout
