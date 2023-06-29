@@ -1,14 +1,14 @@
 .img-wrap{
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .home-img{
   position: absolute;
   z-index: -5;
-  min-height: 100vh;
+  height: 100vh;
   object-fit: cover;
-  transform: scale(1.1);
 }
 
 .home .profile{
