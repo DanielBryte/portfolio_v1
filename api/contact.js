@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 		service: "gmail",
 		auth: {
 			user: "ezedinirudaniel@gmail.com",
-			pass: process.env.EMAIL_PASSWORD,
+			pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
 		},
 	});
 
