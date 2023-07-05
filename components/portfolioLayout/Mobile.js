@@ -38,6 +38,7 @@ const PortfolioCard = ({
                         {image && (
                             <Image
                                 loading="lazy"
+                                className='card-img'
                                 src={image}
                                 alt={title}
                                 width="350"
