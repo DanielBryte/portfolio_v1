@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Footer from "/components/Footer";
 import { useState } from "react";
 
-const index = () => {
+const Index = () => {
 
     const [contactValue, setContactValue] = useState({
         name: "",
@@ -142,4 +142,4 @@ const index = () => {
         </>
     )
 }
-export default index
+export default Index

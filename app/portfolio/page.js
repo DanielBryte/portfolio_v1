@@ -5,7 +5,7 @@ import Footer from '/components/Footer'
 import PageAnimation from "components/PageAnimation";
 
 
-const index = () => {
+const Index = () => {
     return (
         <>
         <PageAnimation/>
@@ -33,4 +33,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
