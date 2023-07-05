@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import Footer from "/components/Footer";
 import { useState } from "react";
