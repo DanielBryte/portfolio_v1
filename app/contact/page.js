@@ -1,11 +1,9 @@
+"use client";
 import { motion } from "framer-motion";
 import Footer from "/components/Footer";
 import { useState } from "react";
-import PageAnimation from "components/PageAnimation";
 
-
-
-const Index = () => {
+const index = () => {
 
     const [contactValue, setContactValue] = useState({
         name: "",
@@ -47,7 +45,7 @@ const Index = () => {
 
     return (
         <>
-        <PageAnimation/>
+
             <motion.main
                 className="contact"
                 initial={{ y: 25, opacity: 0 }}
@@ -144,4 +142,4 @@ const Index = () => {
         </>
     )
 }
-export default Index
+export default index
