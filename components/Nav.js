@@ -1,4 +1,3 @@
-"use client";
 import { usePathname } from 'next/navigation';
 import { useState } from "react";
 import Image from 'next/image';
@@ -18,7 +17,7 @@ const Nav = () => {
                 <header className="header">
                     <nav className='navbar'>
                         <Link href="/" className="logo">
-                            <Image src={Logo} className='logo-img' width="57" height="35" alt="logo" priority />
+                            <Image src={Logo} className='logo-img' width="auto" height="auto" alt="logo" priority />
                         </Link>
 
 
