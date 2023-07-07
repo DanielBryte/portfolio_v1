@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: ["img.shields.io"],
         dangerouslyAllowSVG: true,
-    },
+    }
 }
 
 module.exports = nextConfig
