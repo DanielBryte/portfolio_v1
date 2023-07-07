@@ -1,8 +1,6 @@
-"use client";
-
 import { motion } from "framer-motion";
 import PageAnimation from "components/PageAnimation";
-import HomeImg from "public/home-img.png";
+import HomeImg from "/public/home-img.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -52,21 +50,21 @@ const Home = () => {
                 <Link href="/contact" className="cv">Contact Me</Link>
               </div>
 
-              
-            <div className="mobile-social">
-              <a href="https://www.linkedin.com/in/danielbryte/">
-                <Image src="/socials/linkedin.svg" width="25" height="25" />
-              </a>
-              <a href="https://twitter.com/amdanielbryte">
-                <Image src="/socials/twitter.svg" width="25" height="25" />
-              </a>
-              <a href="https://www.instagram.com/amdanielbryte/">
-                <Image src="/socials/instagram.svg" width="25" height="25" />
-              </a>
-              <a href="https://github.com/DanielBryte">
-                <Image src="/socials/github.svg" width="25" height="25" />
-              </a>
-            </div>
+
+              <div className="mobile-social">
+                <a href="https://www.linkedin.com/in/danielbryte/">
+                  <Image src="/socials/linkedin.svg" width="25" height="25" alt="linkedin" />
+                </a>
+                <a href="https://twitter.com/amdanielbryte">
+                  <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter"/>
+                </a>
+                <a href="https://www.instagram.com/amdanielbryte/">
+                  <Image src="/socials/instagram.svg" width="25" height="25" alt="Instagram"/>
+                </a>
+                <a href="https://github.com/DanielBryte">
+                  <Image src="/socials/github.svg" width="25" height="25" alt="Github"/>
+                </a>
+              </div>
             </div>
           </div>
         </motion.section>

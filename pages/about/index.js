@@ -1,10 +1,10 @@
-"use client";
 
 import Image from "next/image";
 import Picture from "/public/picture.png";
 import { motion } from "framer-motion";
 import Footer from "/components/Footer";
 import PageAnimation from "components/PageAnimation";
+import Link from "next/link";
 
 
 function About() {
@@ -40,7 +40,7 @@ function About() {
               <p>Hi, I am a Frontend Engineer and a Product Designer passionate about solving real-life problems through technological skills.</p>
               <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry&apos;s standard, looking forward to the exciting challenges that lie ahead.</p>
 
-              <a href="/contact" className="button">Get In Touch</a>
+              <Link href="/contact" className="button">Get In Touch</Link>
             </div>
 
           </div>

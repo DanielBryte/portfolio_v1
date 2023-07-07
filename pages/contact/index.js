@@ -1,10 +1,10 @@
-"use client";
-import { motion } from "framer-motion";
-import Footer from "/components/Footer";
 import { useState } from "react";
+import Footer from "/components/Footer";
+import { motion } from "framer-motion";
+import PageAnimation from "components/PageAnimation";
+
 
 const Index = () => {
-
     const [contactValue, setContactValue] = useState({
         name: "",
         email: "",
@@ -22,7 +22,7 @@ const Index = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch("/contact", {
+            const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: {
                     Accept: "application/json, text/plain, */*",
@@ -42,10 +42,9 @@ const Index = () => {
         }
     };
 
-
     return (
         <>
-
+            <PageAnimation />
             <motion.main
                 className="contact"
                 initial={{ y: 25, opacity: 0 }}
@@ -135,7 +134,6 @@ const Index = () => {
 
                         <button type="submit">Submit</button>
                     </form>
-
                 </section>
             </motion.main>
             <Footer />

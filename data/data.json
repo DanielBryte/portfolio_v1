@@ -64,10 +64,10 @@
         "projectLink": "https://newgracemediasite.web.app/"
       },
       {
-        "image": "/portfolio/web/totalwellnessstudio.svg",
-        "title": "Coinbase UI",
+        "image": "/portfolio/design/dashboard.svg",
+        "title": "Dashboard",
         "category": "Web Development",
-        "github": "https://github.com/DanielBryte/totalwellnessstudio",
+        "github": "https://github.com/DanielBryte/fintech-dashboard",
         "projectLink": "https://total-wellness-studio.web.app/"
       },
       {
@@ -75,7 +75,7 @@
         "title": "Trackeria Website",
         "category": "Web development",
         "github": "https://github.com/DanielBryte/trackeria",
-        "projectLink": "https://newgracemediasite.web.app/"
+        "projectLink": "https://trackeria.vercel.app/"
       },
       {
         "image": "/portfolio/web/newgracemedia.svg",
@@ -85,6 +85,9 @@
         "projectLink": "https://newgracemediasite.web.app/"
       }
     ],
+
+
+
     "designs": [
       {
         "image": "/portfolio/design/raym-unlimited-page.svg",
@@ -100,7 +103,7 @@
       },
       {
         "image": "/portfolio/design/logos.svg",
-        "title": "All logo Collection",
+        "title": "Logofolio 1.0",
         "category": "Logo Design",
         "projectLink": "https://www.behance.net/gallery/"
       },
@@ -123,7 +126,7 @@
         "projectLink": "https://www.behance.net/gallery/"
       },
       {
-        "image": "/portfolio/design/beta-ai.svg",
+        "image": "/portfolio/design/project774.svg",
         "title": "Project 774",
         "category": "UI Design",
         "projectLink": "https://www.behance.net/gallery/172742683/AI-Personal-Assistant-Dashboard-UI-Design"
@@ -135,12 +138,15 @@
         "projectLink": "https://www.behance.net/gallery/"
       },
       {
-        "image": "/portfolio/design/acabeta-case-study.svg",
-        "title": "Skillhub",
-        "category": "Interactive Design",
+        "image": "/portfolio/design/dashboard.svg",
+        "title": "Dashboard",
+        "category": "UI Design, Dashboard Design",
         "projectLink": "https://www.behance.net/gallery/"
       }
     ],
+
+
+
     "ai": [
       {
         "image": "/portfolio/ml/tic-tac-toe-game.svg",

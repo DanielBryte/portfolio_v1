@@ -1,4 +1,3 @@
-"use client";
 import Filter from '/components/Filter'
 import { motion } from 'framer-motion'
 import Footer from '/components/Footer'
