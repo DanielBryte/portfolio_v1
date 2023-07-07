@@ -1,6 +1,8 @@
 import data from '/data/data.json'
 import Image from 'next/image';
 import GithubIcon from '/public/portfolio/github.svg';
+import Lazy from '/public/lazy.png'
+
 
 const Web = () => {
 
@@ -41,6 +43,7 @@ const PortfolioCard = ({
                                 alt={title}
                                 width="350"
                                 height="228"
+                                placeholder={Lazy}
                             />
                         )}
                     </span>
