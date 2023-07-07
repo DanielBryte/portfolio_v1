@@ -17,10 +17,11 @@ const Socials = () => {
                     <Image src="/socials/linkedin.svg" width="25" height="25" alt='Linkedin' priority />
                 </a>
                 <a href="https://twitter.com/amdanielbryte">
-                    <Image src="/socials/twitter.svg" width="25" height="25" alt='Twitter'priority />
+                    <Image src="/socials/twitter.svg" width="25" height="25" alt='Twitter' priority />
                 </a>
-                <a href="https://www.instagram.com/amdanielbryte/">
-                    <Image src="/socials/instagram.svg" width="25" height="25" alt='Instagram'priority />
+
+                <a href="https://www.behance.net/amdanielbryte">
+                    <Image src="/socials/behance.svg" width="25" height="25" alt='Behance'priority />
                 </a>
                 <a href="https://github.com/DanielBryte">
                     <Image src="/socials/github.svg" width="25" height="25" alt='Github'priority />
