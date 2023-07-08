@@ -134,3 +134,22 @@
     height: 30px;
     width: auto;
   }
+
+  .about-cv{
+    display: block;
+    background-color: #ffffff;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.8rem 0;
+    margin: 0 0.5rem;
+    transition: all .5s;
+  }
+
+  .about-cv:hover{
+    background-color: #e1dfdf;
+    transform: scale(1.009);
+
+  }
