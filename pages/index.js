@@ -58,8 +58,8 @@ const Home = () => {
                 <a href="https://twitter.com/amdanielbryte">
                   <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter"/>
                 </a>
-                <a href="https://www.instagram.com/amdanielbryte/">
-                  <Image src="/socials/instagram.svg" width="25" height="25" alt="Instagram"/>
+                <a href="https://www.behance.net/amdanielbryte">
+                    <Image src="/socials/behance.svg" width="25" height="25" alt='Behance'priority />
                 </a>
                 <a href="https://github.com/DanielBryte">
                   <Image src="/socials/github.svg" width="25" height="25" alt="Github"/>
