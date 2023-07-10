@@ -45,7 +45,7 @@ const Home = () => {
               <h2>I DESIGN I CODE I BUILD</h2>
 
               <div className="cta">
-                <Link href="/CV.pdf" target="_blank" className="cv">View My CV</Link>
+                <Link href="/cv.pdf" target="_blank" className="cv">View My CV</Link>
 
                 <Link href="/contact" className="cv">Contact Me</Link>
               </div>
