@@ -180,13 +180,6 @@
       },
       {
         "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "Social Media App",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
         "title": "Whatsapp UI",
         "category": "Flutter(Dart)",
         "github": "https://github.com/amdanielbryte",
@@ -195,20 +188,6 @@
       {
         "image": "/portfolio/design/raym-unlimited-page.svg",
         "title": "Calculator App",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "Todo App",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "Edtech UI",
         "category": "Flutter(Dart)",
         "github": "https://github.com/amdanielbryte",
         "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
