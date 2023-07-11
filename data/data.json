@@ -1,25 +1,18 @@
 {
     "webs": [
       {
-        "image": "/portfolio/web/e-commerce.svg",
-        "title": "E-Commerce Site",
-        "category": "Fullstack Web Development",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": ""
-      },
-      {
-        "image": "/portfolio/web/linkme.png",
-        "title": "ChatAI",
-        "category": "Web Development",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": ""
+        "image": "/portfolio/web/course-connect.svg",
+        "title": "Course Connect",
+        "category": "Web development(Open Source Project)",
+        "github": "https://github.com/DanielBryte/course_connect",
+        "projectLink": "https://course-connect.vercel.app/"
       },
       {
         "image": "/portfolio/web/portfolio-cover.svg",
         "title": "Portfolio V1",
         "category": "Web Development",
         "github": "https://github.com/amdanielbryte/portfolio-v1",
-        "projectLink": "https://www.linkme.com"
+        "projectLink": "https://daniel-portfolio-v1.vercel.app/"
       },
       {
         "image": "/portfolio/web/linkme.png",
@@ -64,25 +57,11 @@
         "projectLink": "https://newgracemediasite.web.app/"
       },
       {
-        "image": "/portfolio/design/dashboard.svg",
-        "title": "Dashboard",
-        "category": "Web Development",
-        "github": "https://github.com/DanielBryte/fintech-dashboard",
-        "projectLink": "https://total-wellness-studio.web.app/"
-      },
-      {
         "image": "/portfolio/web/trackeria.svg",
         "title": "Trackeria Website",
         "category": "Web development",
         "github": "https://github.com/DanielBryte/trackeria",
         "projectLink": "https://trackeria.vercel.app/"
-      },
-      {
-        "image": "/portfolio/web/newgracemedia.svg",
-        "title": "Social Media Site",
-        "category": "Web development",
-        "github": "https://github.com/DanielBryte/newgracemedia",
-        "projectLink": "https://newgracemediasite.web.app/"
       }
     ],
 
@@ -98,8 +77,8 @@
       {
         "image": "/portfolio/design/trackeria.svg",
         "title": "Trackeria Case Study",
-        "category": "UI/UX design and Case study",
-        "projectLink": "https://www.behance.net/gallery/"
+        "category": "UI/UX design and Case study(In progress)",
+        "projectLink": "https://www.figma.com/proto/UlwJJar1ACUgj26gvMuUES/TRACKERIA?node-id=771-151&scaling=min-zoom&page-id=741%3A161"
       },
       {
         "image": "/portfolio/design/logos.svg",
@@ -114,34 +93,16 @@
         "projectLink": "https://www.behance.net/gallery/172742683/AI-Personal-Assistant-Dashboard-UI-Design"
       },
       {
-        "image": "/portfolio/design/totalwellnessstudio.svg",
-        "title": "Fitness Website",
-        "category": "UI Design",
-        "projectLink": "https://www.behance.net/gallery/"
-      },
-      {
-        "image": "/portfolio/design/acabeta-case-study.svg",
-        "title": "Acabeta Case Study",
-        "category": "UI/UX design and Case study",
-        "projectLink": "https://www.behance.net/gallery/"
-      },
-      {
         "image": "/portfolio/design/project774.svg",
         "title": "Project 774",
         "category": "UI Design",
-        "projectLink": "https://www.behance.net/gallery/172742683/AI-Personal-Assistant-Dashboard-UI-Design"
+        "projectLink": "https://www.figma.com/file/X8hINqDHV0X9Eych7Kyg4Q/Event-Overvew?type=design&node-id=30%3A2&mode=design&t=CHXSGIpCnWXahFma-1"
       },
       {
         "image": "/portfolio/web/portfolio-cover.svg",
         "title": "Portfolio Design",
         "category": "UI Design",
-        "projectLink": "https://www.behance.net/gallery/"
-      },
-      {
-        "image": "/portfolio/design/dashboard.svg",
-        "title": "Dashboard",
-        "category": "UI Design, Dashboard Design",
-        "projectLink": "https://www.behance.net/gallery/"
+        "projectLink": "https://www.figma.com/file/qC8SrdJBsci0v07XIY6nLm/Daniel-Bryte-v1?type=design&node-id=923-22&mode=design&t=ZYVAbT9rrLYgdKTB-0"
       }
     ],
 
@@ -172,21 +133,7 @@
     ],
     "mobile": [
       {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "job Seeker App",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "Whatsapp UI",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
+        "image": "/portfolio/mobile/calculator.svg",
         "title": "Calculator App",
         "category": "Flutter(Dart)",
         "github": "https://github.com/amdanielbryte",
