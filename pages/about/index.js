@@ -164,7 +164,7 @@ function About() {
 
             </div>
           </div>
-          <Link href="/cv.pdf" target="_blank" className="about-cv">View Full CV</Link>
+          <Link href="/CV.pdf" target="_blank" className="about-cv">View Full CV</Link>
         </section>
 
 
