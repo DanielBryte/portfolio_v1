@@ -1,0 +1,68 @@
+{
+    "webs": [
+        {
+            "image": "/portfolio/web/e-commerce.svg",
+            "title": "E-Commerce Site",
+            "category": "Fullstack Web Development",
+            "github": "https://github.com/amdanielbryte",
+            "projectLink": ""
+        },
+        {
+            "image": "/portfolio/web/linkme.png",
+            "title": "ChatAI",
+            "category": "Web Development",
+            "github": "https://github.com/amdanielbryte",
+            "projectLink": ""
+        },
+        {
+            "image": "/portfolio/design/dashboard.svg",
+            "title": "Dashboard",
+            "category": "Web Development",
+            "github": "https://github.com/DanielBryte/fintech-dashboard",
+            "projectLink": "https://total-wellness-studio.web.app/"
+        },
+        {
+            "image": "/portfolio/web/newgracemedia.svg",
+            "title": "Social Media Site",
+            "category": "Web development",
+            "github": "https://github.com/DanielBryte/newgracemedia",
+            "projectLink": "https://newgracemediasite.web.app/"
+        }
+    ],
+    "design": [
+        {
+            "image": "/portfolio/design/dashboard.svg",
+            "title": "Dashboard",
+            "category": "UI Design, Dashboard Design",
+            "projectLink": "https://www.behance.net/gallery/"
+        },
+        {
+            "image": "/portfolio/design/totalwellnessstudio.svg",
+            "title": "Fitness Website",
+            "category": "UI Design",
+            "projectLink": "https://www.behance.net/gallery/"
+        },
+        {
+            "image": "/portfolio/design/acabeta-case-study.svg",
+            "title": "Acabeta Case Study",
+            "category": "UI/UX design and Case study",
+            "projectLink": "https://www.behance.net/gallery/"
+        }
+    ],
+    "mobile": [
+        {
+            "image": "/portfolio/design/raym-unlimited-page.svg",
+            "title": "job Seeker App",
+            "category": "Flutter(Dart)",
+            "github": "https://github.com/amdanielbryte",
+            "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
+          },
+          {
+            "image": "/portfolio/design/raym-unlimited-page.svg",
+            "title": "Whatsapp UI",
+            "category": "Flutter(Dart)",
+            "github": "https://github.com/amdanielbryte",
+            "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
+          }
+    ]
+}
