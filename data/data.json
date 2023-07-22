@@ -3,65 +3,65 @@
       {
         "image": "/portfolio/web/course-connect.svg",
         "title": "Course Connect",
-        "category": "Web development(Open Source Project)",
-        "github": "https://github.com/DanielBryte/course_connect",
+        "category": "Fullstack - JS/NextJS, TailwindCSS, MongoDB",
+        "github": "https://github.com/DanielBryte/courseconnect",
         "projectLink": "https://course-connect.vercel.app/"
       },
       {
         "image": "/portfolio/web/portfolio-cover.svg",
         "title": "Portfolio V1",
-        "category": "Web Development",
-        "github": "https://github.com/amdanielbryte/portfolio-v1",
+        "category": "Web - JavaScript/NextJS, CSS",
+        "github": "https://github.com/danielbryte/portfolio_v1",
         "projectLink": "https://daniel-portfolio-v1.vercel.app/"
       },
       {
         "image": "/portfolio/web/linkme.png",
         "title": "LinkMe",
-        "category": "Web Development",
+        "category": "Web - Typescript/NextJS",
         "github": "https://github.com/DanielBryte/linkme",
         "projectLink": "https://linkme-ashy.vercel.app/"
       },
       {
         "image": "/portfolio/web/techburst.svg",
         "title": "TechBurst website",
-        "category": "Web Development",
+        "category": "Frontend web- React, CSS",
         "github": "https://github.com/i4gaefunai/techburstlive",
         "projectLink": "https://www.techburst.live"
       },
       {
-        "image": "/portfolio/web/acabeta.svg",
-        "title": "Acabeta Web App",
-        "category": "Web Development",
-        "github": "https://github.com/danielbryte/acabeta",
-        "projectLink": "https://www.acabeta.com"
+        "image": "/portfolio/web/trackeria.svg",
+        "title": "Trackeria Website",
+        "category": "Web - NextJS",
+        "github": "https://github.com/DanielBryte/trackeria",
+        "projectLink": "https://trackeria.vercel.app/"
       },
       {
         "image": "/portfolio/web/techgruv.svg",
         "title": "TechGruv Blog",
-        "category": "Web Development",
+        "category": "Web - JS, JamStack, Netlify/CMS",
         "github": "https://github.com/DanielBryte/techgruvcom",
         "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
       },
       {
+        "image": "/portfolio/web/acabeta.svg",
+        "title": "Acabeta Web App",
+        "category": "Fullstack web",
+        "github": "https://github.com/danielbryte/acabeta",
+        "projectLink": "https://www.acabeta.com"
+      },
+      {
         "image": "/portfolio/web/totalwellnessstudio.svg",
         "title": "Fitness website",
-        "category": "Web Development",
+        "category": "Web - HTML/CSS, JS",
         "github": "https://github.com/DanielBryte/totalwellnessstudio",
         "projectLink": "https://total-wellness-studio.web.app/"
       },
       {
         "image": "/portfolio/web/newgracemedia.svg",
         "title": "Digital Agency Site",
-        "category": "Web development",
+        "category": "Web - Bootstrap, JS",
         "github": "https://github.com/DanielBryte/newgracemedia",
         "projectLink": "https://newgracemediasite.web.app/"
-      },
-      {
-        "image": "/portfolio/web/trackeria.svg",
-        "title": "Trackeria Website",
-        "category": "Web development",
-        "github": "https://github.com/DanielBryte/trackeria",
-        "projectLink": "https://trackeria.vercel.app/"
       }
     ],
 
@@ -77,7 +77,7 @@
       {
         "image": "/portfolio/design/trackeria.svg",
         "title": "Trackeria Case Study",
-        "category": "UI/UX design and Case study(In progress)",
+        "category": "UI/UX design and Case study",
         "projectLink": "https://www.figma.com/proto/UlwJJar1ACUgj26gvMuUES/TRACKERIA?node-id=771-151&scaling=min-zoom&page-id=741%3A161"
       },
       {
@@ -135,9 +135,20 @@
       {
         "image": "/portfolio/mobile/calculator.svg",
         "title": "Calculator App",
-        "category": "Flutter(Dart)",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
+        "category": "Flutter - Dart",
+        "github": "https://github.com/danielbryte/calculator_app"
+      },
+      {
+        "image": "/portfolio/mobile/whatsapp.svg",
+        "title": "Whatsapp UI",
+        "category": "Flutter - Dart",
+        "github": "https://github.com/danielbryte/whatsapp_ui"
+      },
+      {
+        "image": "/portfolio/mobile/whatsapp.svg",
+        "title": "Chat App",
+        "category": "Flutter, Dart, Firebase",
+        "github": "https://github.com/danielbryte/social_media"
       }
     ],
     "content": [
