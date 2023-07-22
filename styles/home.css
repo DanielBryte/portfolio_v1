@@ -20,6 +20,16 @@
   font-weight: 700;
 }
 
+
+.home .profile h1 {
+  z-index: 1;
+  text-align: center;
+  font-size: 7.2rem;
+  line-height: 120%;
+  letter-spacing: 0.036em;
+  margin-top: 12rem;
+}
+
 .home .profile h2 {
   z-index: 1;
   text-align: center;
@@ -29,15 +39,6 @@
   text-transform: uppercase;
   letter-spacing: 0.068em;
   margin-top: 1rem;
-}
-
-.home .profile h1 {
-  z-index: 1;
-  text-align: center;
-  font-size: 7.2rem;
-  line-height: 120%;
-  letter-spacing: 0.036em;
-  margin-top: 12rem;
 }
 
 
