@@ -56,8 +56,6 @@ const PortfolioCard = ({
                         <span className="card-title">{title}</span>
                         <span className="card-links">
                             <a href={github} target="_blank" className="github"><Image src={GithubIcon} alt={github} height={25} width={26.61} /></a>
-                            <a href={projectLink} target="_blank"> <button>View Project</button>
-                            </a>
                         </span>
                     </span>
                 </span>
