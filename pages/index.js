@@ -52,17 +52,17 @@ const Home = () => {
 
 
               <div className="mobile-social">
-                <a href="https://www.linkedin.com/in/danielbryte/">
-                  <Image src="/socials/linkedin.svg" width="25" height="25" alt="linkedin" />
+                <a href="https://www.linkedin.com/in/danielbryte/" target="_blank">
+                  <Image src="/socials/linkedin.svg" width="25" height="25" alt="linkedin" target="_blank" priority/>
                 </a>
                 <a href="https://twitter.com/amdanielbryte">
-                  <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter"/>
+                  <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter" target="_blank" priority/>
                 </a>
-                <a href="https://www.behance.net/amdanielbryte">
-                    <Image src="/socials/behance.svg" width="25" height="25" alt='Behance'priority />
+                <a href="https://www.behance.net/amdanielbryte" target="_blank">
+                    <Image src="/socials/behance.svg" width="25" height="25" alt='Behance' priority />
                 </a>
                 <a href="https://github.com/DanielBryte">
-                  <Image src="/socials/github.svg" width="25" height="25" alt="Github"/>
+                  <Image src="/socials/github.svg" width="25" height="25" alt="Github" target="_blank" priority/>
                 </a>
               </div>
             </div>
