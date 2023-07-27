@@ -1,8 +1,9 @@
-// import Head from "next/head";
-import Social from "/components/Socials";
 import "/styles/globals.css";
+import Social from "/components/Socials";
 import Nav from "components/Nav";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 
@@ -49,7 +50,7 @@ export default function App({ Component, pageProps }) {
         <Nav />
         <Social />
         <Component {...pageProps} />
-
+        <Analytics />
       </div>
 
     </>
