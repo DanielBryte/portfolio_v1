@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["img.shields.io"],
-        dangerouslyAllowSVG: true,
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'cdn.buymeacoffee.com',
+            port: '',
+          },
+        ],
     }
 }
 
