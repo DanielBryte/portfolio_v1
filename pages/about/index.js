@@ -179,22 +179,22 @@ function About() {
 
           <div className="skills-wrapper">
             <div className="skills">
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=" alt="html" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=" alt="css" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=" alt="javascript" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Bootstrap&color=7952B3&logo=Bootstrap&logoColor=FFFFFF&label=" alt="boostrap" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=" alt="tailwindCSS" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Jamstack&color=F0047F&logo=Jamstack&logoColor=FFFFFF&label=" alt="Jamstack" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=" alt="github" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Git&color=F05032&logo=Git&logoColor=FFFFFF&label=" alt="gi" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=" alt="react" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Next.js&color=000000&logo=Next.js&logoColor=FFFFFF&label=" alt="nextJS" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Flutter&color=02569B&logo=Flutter&logoColor=FFFFFF&label=" alt="flutter" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Dart&color=0175C2&logo=Dart&logoColor=FFFFFF&label=" alt="dart" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=MongoDB&color=47A248&logo=MongoDB&logoColor=FFFFFF&label=" alt="mongoDB" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Firebase&color=222222&logo=Firebase&logoColor=FFCA28&label=" alt="firebase" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=" alt="python" width={20} height={40} />
-              <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label=" alt="figma" width={20} height={40} />
+              <Image src="/about/html.svg" alt="html" width={20} height={40} />
+              <Image src="/about/css.svg" alt="css" width={20} height={40} />
+              <Image src="/about/javascript.svg" alt="javascript" width={20} height={40} />
+              <Image src="/about/bootstrap.svg" alt="boostrap" width={20} height={40} />
+              <Image src="/about/tailwind.svg" alt="tailwindCSS" width={20} height={40} />
+              <Image src="/about/jamstack.svg" alt="Jamstack" width={20} height={40} />
+              <Image src="/about/github.svg" alt="github" width={20} height={40} />
+              <Image src="/about/git.svg" alt="git" width={20} height={40} />
+              <Image src="/about/react.svg" alt="react" width={20} height={40} />
+              <Image src="/about/next.svg" alt="nextJS" width={20} height={40} />
+              <Image src="/about/flutter.svg" alt="flutter" width={20} height={40} />
+              <Image src="/about/dart.svg" alt="dart" width={20} height={40} />
+              <Image src="/about/mongodb.svg" alt="mongoDB" width={20} height={40} />
+              <Image src="/about/firebase.svg" alt="firebase" width={20} height={40} />
+              <Image src="/about/python.svg" alt="python" width={20} height={40} />
+              <Image src="/about/figma.svg" alt="figma" width={20} height={40} />
             </div>
           </div>
         </section>
