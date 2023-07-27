@@ -21,7 +21,7 @@ const Index = () => {
 
                     <div className="section-heading">
                         <h1>My Portfolio</h1>
-                        <h2>This comprises my works in tech, from content creation to web, mobile development, AI/ML, and UI/UX design, not limited all listed here ;)</h2>
+                        <h2>This comprises my works in tech, from content creation to web, mobile development, and UI/UX design, not limited all listed here ;)</h2>
                     </div>
 
                     <Filter />
