@@ -22,13 +22,13 @@ const Nav = () => {
 
 
 
-                        <div class="hamburger">
+                        <div className="hamburger">
                             <input type="checkbox" name="checkbox" id="hamburgerCheckbox" aria-label='hamburgerMenu' checked={isMenuOpen}
                                 onChange={handleCheckboxChange} />
-                            <label class="hamburger-lines" for="hamburgerCheckbox">
-                                <span class="line line1"></span>
-                                <span class="line line2"></span>
-                                <span class="line line3"></span>
+                            <label className="hamburger-lines" htmlFor="hamburgerCheckbox">
+                                <span className="line line1"></span>
+                                <span className="line line2"></span>
+                                <span className="line line3"></span>
                             </label>
                         </div>
                     </nav>
