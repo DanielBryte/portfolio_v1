@@ -116,13 +116,13 @@ li {
   list-style: none;
 }
 
-.mobile-social{
+.mobile-social {
   display: none;
 }
 
 
-/*HOME CTA */
-/*HOME CTA */
+/*HOME CTA for mail and socials*/
+/*HOME CTA for mail and socials*/
 
 .cta .mail {
   position: fixed;
@@ -142,7 +142,7 @@ li {
 
 .cta .social {
   position: fixed;
-  top: 70%;
+  top: 68%;
   left: -6%;
   display: inline-flex;
   gap: 2rem;
@@ -160,11 +160,81 @@ li {
 }
 
 
+/* SUPPORT (Buy me a coffee) */
+
+.support-wrapper {
+  position: fixed;
+  bottom: 2.5%;
+  right: 5%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms;
+}
+
+.support {
+  position: absolute;
+  background-color: #102f9e;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.support-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.ping {
+  animation: ping 1s infinite linear;
+  padding: 1.9rem;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+/* support tooltip/label */
+
+.support-note {
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.support-div:hover .support-note {
+  visibility: visible;
+}
+
+
+
 
 @import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
-
-
-
 
 
 /***  RESPONSIVENESS     ***/
@@ -179,7 +249,8 @@ li {
 
 @media (max-width: 1465px) {
 
-  .cta .social, .cta .mail {
+  .cta .social,
+  .cta .mail {
     display: none !important;
   }
 
@@ -293,7 +364,7 @@ li {
 
 @media (max-width: 640px) {
 
-  .mobile-social{
+  .mobile-social {
     display: flex;
     align-items: center;
     gap: 0.8rem;
