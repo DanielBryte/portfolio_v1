@@ -29,7 +29,7 @@ function About() {
 
           <div className="profile">
             <div>
-              <Image className="about-img" src={Picture} width="473" height="580" alt="Daniel Picture" loading="lazy" placeholder="blur" blurDataURL='LJDT9WMxlVt7?wkCXTtR%Ma|V?of'
+              <Image className="about-img" src={Picture} width="473" height="580" alt="Daniel Picture" loading="lazy" placeholder="blur"
               />
             </div>
 
