@@ -1,7 +1,7 @@
 {
     "webs": [
       {
-        "image": "/portfolio/web/course-connect.svg",
+        "image": "/portfolio/web/course-connect.png",
         "title": "Course Connect",
         "category": "Fullstack - JS/NextJS, TailwindCSS, MongoDB",
         "github": "https://github.com/DanielBryte/courseconnect",
@@ -43,7 +43,7 @@
         "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
       },
       {
-        "image": "/portfolio/web/acabeta.svg",
+        "image": "/portfolio/web/acabeta.png",
         "title": "Acabeta Web App",
         "category": "Fullstack web",
         "github": "https://github.com/danielbryte/acabeta",
@@ -133,19 +133,19 @@
     ],
     "mobile": [
       {
-        "image": "/portfolio/mobile/calculator.svg",
+        "image": "/portfolio/mobile/calculator.png",
         "title": "Calculator App",
         "category": "Flutter - Dart",
-        "github": "https://github.com/danielbryte/calculator_app"
+        "github": "https://github.com/DanielBryte/flutter_calculator_app"
       },
       {
-        "image": "/portfolio/mobile/whatsapp.svg",
+        "image": "/portfolio/mobile/whatsapp-ui.png",
         "title": "Whatsapp UI",
         "category": "Flutter - Dart",
         "github": "https://github.com/danielbryte/whatsapp_ui"
       },
       {
-        "image": "/portfolio/mobile/whatsapp.svg",
+        "image": "/portfolio/mobile/social-app.png",
         "title": "Chat App",
         "category": "Flutter, Dart, Firebase",
         "github": "https://github.com/danielbryte/social_media"
