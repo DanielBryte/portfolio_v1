@@ -5,6 +5,7 @@ import PageAnimation from "components/PageAnimation";
 
 
 const Index = () => {
+    const [submitting, setSubmitting] = useState(false)
     const [contactValue, setContactValue] = useState({
         name: "",
         email: "",
@@ -20,6 +21,7 @@ const Index = () => {
     })
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setSubmitting(true);
 
         try {
             const response = await fetch("/api/contact", {
@@ -36,9 +38,11 @@ const Index = () => {
                 setContactValue({ name: "", email: "", subject: "", message: "" });
                 window.alert("Message sent successfully");
             }
-        } catch (error) {
+        } catch(error) {
             window.alert("Error Sending Message");
             setInputState({ submitted: true, success: false, message: error.message });
+        }finally {
+            setSubmitting(false);
         }
     };
 
@@ -132,7 +136,7 @@ const Index = () => {
                                 required="required"></textarea>
                         </div>
 
-                        <button type="submit">Submit</button>
+                        <button type="submit">{submitting ? 'submitting...' : 'submit'}</button>
                     </form>
                 </section>
             </motion.main>
