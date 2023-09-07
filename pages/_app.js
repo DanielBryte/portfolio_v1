@@ -59,7 +59,11 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       <div style={{
-        backgroundColor: '#040203',
+        backgroundImage: 'url("/background.svg") !important' ,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
       }}>
         <Nav />
         <Social />
