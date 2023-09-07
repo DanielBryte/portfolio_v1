@@ -2,7 +2,7 @@ import { useState } from "react";
 import Footer from "/components/Footer";
 import PageAnimation from "components/PageAnimation";
 
-export default function index() {
+export default function Index() {
     const [submitting, setSubmitting] = useState(false)
     const [contactValue, setContactValue] = useState({
         name: "",
