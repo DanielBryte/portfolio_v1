@@ -58,13 +58,7 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:image:alt" content="Ezediniru Daniel Website" />
       </Head>
 
-      <div style={{
-        backgroundImage: 'url("/background.svg") !important' ,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed'
-      }}>
+      <div>
         <Nav />
         <Social />
         <Component {...pageProps} />
