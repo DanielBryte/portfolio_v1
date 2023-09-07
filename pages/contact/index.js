@@ -1,47 +1,44 @@
 import { useState } from "react";
 import Footer from "/components/Footer";
-import { motion } from "framer-motion";
 import PageAnimation from "components/PageAnimation";
 
-
-const Index = () => {
+export default function index() {
     const [submitting, setSubmitting] = useState(false)
     const [contactValue, setContactValue] = useState({
         name: "",
         email: "",
         subject: "",
         message: "",
-    })
-
-
+    });
     const [inputState, setInputState] = useState({
         submitted: false,
         success: false,
         message: null,
-    })
+    });
+
+
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         setSubmitting(true);
-
-        try {
-            const response = await fetch("/api/contact", {
-                method: "POST",
-                headers: {
-                    Accept: "application/json, text/plain, */*",
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(contactValue),
-            });
+		try {
+			const response = await fetch("/api/contact", {
+				method: "POST",
+				headers: {
+					Accept: "application/json, text/plain, */*",
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(contactValue),
+			});
 
             if (response.status === 200) {
                 setInputState({ submitted: true, success: true });
                 setContactValue({ name: "", email: "", subject: "", message: "" });
                 window.alert("Message sent successfully");
             }
-        } catch(error) {
+        } catch (error) {
             window.alert("Error Sending Message");
             setInputState({ submitted: true, success: false, message: error.message });
-        }finally {
+        } finally {
             setSubmitting(false);
         }
     };
@@ -49,7 +46,7 @@ const Index = () => {
     return (
         <>
             <PageAnimation />
-            <motion.main
+            <main
                 className="contact"
                 initial={{ y: 25, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -62,7 +59,7 @@ const Index = () => {
                 <section className="section">
                     <div className="section-heading">
                         <h1>Contact</h1>
-                        <h2>Please reach out to me for collaboration, partnership, open roles, mentorship, and business discussion :) <br></br>I reply within <b>3 working days.</b></h2>
+                        <h2>Please reach out to me for collaboration, partnership, open roles, mentorship, and business discussion :)  </h2>
                     </div>
 
                     <form className="contact-form" onSubmit={handleFormSubmit}>
@@ -82,7 +79,8 @@ const Index = () => {
                                     id="name"
                                     placeholder="Your name"
                                     autoComplete="no"
-                                    required="required" />
+                                    required="required"
+                                />
                             </div>
 
                             <div className="email">
@@ -100,7 +98,8 @@ const Index = () => {
                                     id="email"
                                     placeholder="Your email"
                                     autoComplete="no"
-                                    required="required" />
+                                    required="required"
+                                />
                             </div>
                         </div>
 
@@ -133,15 +132,15 @@ const Index = () => {
                                 id="textarea"
                                 rows="4" cols="50"
                                 placeholder="Enter Your Message"
-                                required="required"></textarea>
+                                required="required">
+                            </textarea>
                         </div>
 
                         <button type="submit">{submitting ? 'submitting...' : 'submit'}</button>
                     </form>
                 </section>
-            </motion.main>
+            </main>
             <Footer />
         </>
     )
 }
-export default Index
