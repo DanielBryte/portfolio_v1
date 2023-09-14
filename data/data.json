@@ -78,7 +78,11 @@
         "image": "/portfolio/design/trackeria.svg",
         "title": "Trackeria Case Study",
         "category": "UI/UX design and Case study",
+<<<<<<< HEAD
         "projectLink": "https://www.behance.net/gallery/179927617/Trackeria-Case-Study-%28Digital-Security-App%29"
+=======
+        "projectLink": "https://www.behance.net/gallery/179927617/Trackeria-Case-Study-(Digital-Security-App)"
+>>>>>>> e56045b18ece6e8d98e15e3b82b79c1f029e863e
       },
       {
         "image": "/portfolio/design/logos.svg",
