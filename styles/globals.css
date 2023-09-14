@@ -26,11 +26,11 @@
 }
 
 body {
-  background-image: url('/background.svg');
+  /* background-image: url('/background.svg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   color: var(--text-color);
   font-family: var(--font-family);
   background-color: #000000;
