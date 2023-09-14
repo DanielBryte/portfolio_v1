@@ -1,192 +1,192 @@
 {
-    "webs": [
-      {
-        "image": "/portfolio/web/course-connect.png",
-        "title": "Course Connect",
-        "category": "Fullstack - JS/NextJS, TailwindCSS, MongoDB",
-        "github": "https://github.com/DanielBryte/courseconnect",
-        "projectLink": "https://course-connect.vercel.app/"
-      },
-      {
-        "image": "/portfolio/web/portfolio-cover.svg",
-        "title": "Portfolio V1",
-        "category": "Web - JavaScript/NextJS, CSS",
-        "github": "https://github.com/danielbryte/portfolio_v1",
-        "projectLink": "https://daniel-portfolio-v1.vercel.app/"
-      },
-      {
-        "image": "/portfolio/web/linkme.png",
-        "title": "LinkMe",
-        "category": "Web - Typescript/NextJS",
-        "github": "https://github.com/DanielBryte/linkme",
-        "projectLink": "https://linkme-ashy.vercel.app/"
-      },
-      {
-        "image": "/portfolio/web/techburst.svg",
-        "title": "TechBurst website",
-        "category": "Frontend web- React, CSS",
-        "github": "https://github.com/i4gaefunai/techburstlive",
-        "projectLink": "https://www.techburst.live"
-      },
-      {
-        "image": "/portfolio/web/trackeria.svg",
-        "title": "Trackeria Website",
-        "category": "Web - NextJS",
-        "github": "https://github.com/DanielBryte/trackeria",
-        "projectLink": "https://trackeria.vercel.app/"
-      },
-      {
-        "image": "/portfolio/web/techgruv.svg",
-        "title": "TechGruv Blog",
-        "category": "Web - JS, JamStack, Netlify/CMS",
-        "github": "https://github.com/DanielBryte/techgruvcom",
-        "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
-      },
-      {
-        "image": "/portfolio/web/acabeta.png",
-        "title": "Acabeta Web App",
-        "category": "Fullstack web",
-        "github": "https://github.com/danielbryte/acabeta",
-        "projectLink": "https://www.acabeta.com"
-      },
-      {
-        "image": "/portfolio/web/totalwellnessstudio.svg",
-        "title": "Fitness website",
-        "category": "Web - HTML/CSS, JS",
-        "github": "https://github.com/DanielBryte/totalwellnessstudio",
-        "projectLink": "https://total-wellness-studio.web.app/"
-      },
-      {
-        "image": "/portfolio/web/newgracemedia.svg",
-        "title": "Digital Agency Site",
-        "category": "Web - Bootstrap, JS",
-        "github": "https://github.com/DanielBryte/newgracemedia",
-        "projectLink": "https://newgracemediasite.web.app/"
-      }
-    ],
+  "webs": [
+    {
+      "image": "/portfolio/web/course-connect.png",
+      "title": "Course Connect",
+      "category": "Fullstack - JS/NextJS, TailwindCSS, MongoDB",
+      "github": "https://github.com/DanielBryte/courseconnect",
+      "projectLink": "https://course-connect.vercel.app/"
+    },
+    {
+      "image": "/portfolio/web/portfolio-cover.svg",
+      "title": "Portfolio V1",
+      "category": "Web - JavaScript/NextJS, CSS",
+      "github": "https://github.com/danielbryte/portfolio_v1",
+      "projectLink": "https://daniel-portfolio-v1.vercel.app/"
+    },
+    {
+      "image": "/portfolio/web/linkme.png",
+      "title": "LinkMe",
+      "category": "Web - Typescript/NextJS",
+      "github": "https://github.com/DanielBryte/linkme",
+      "projectLink": "https://linkme-ashy.vercel.app/"
+    },
+    {
+      "image": "/portfolio/web/techburst.svg",
+      "title": "TechBurst website",
+      "category": "Frontend web- React, CSS",
+      "github": "https://github.com/i4gaefunai/techburstlive",
+      "projectLink": "https://www.techburst.live"
+    },
+    {
+      "image": "/portfolio/web/trackeria.svg",
+      "title": "Trackeria Website",
+      "category": "Web - NextJS",
+      "github": "https://github.com/DanielBryte/trackeria",
+      "projectLink": "https://trackeria.vercel.app/"
+    },
+    {
+      "image": "/portfolio/web/techgruv.svg",
+      "title": "TechGruv Blog",
+      "category": "Web - JS, JamStack, Netlify/CMS",
+      "github": "https://github.com/DanielBryte/techgruvcom",
+      "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
+    },
+    {
+      "image": "/portfolio/web/acabeta.png",
+      "title": "Acabeta Web App",
+      "category": "Fullstack web",
+      "github": "https://github.com/danielbryte/acabeta",
+      "projectLink": "https://www.acabeta.com"
+    },
+    {
+      "image": "/portfolio/web/totalwellnessstudio.svg",
+      "title": "Fitness website",
+      "category": "Web - HTML/CSS, JS",
+      "github": "https://github.com/DanielBryte/totalwellnessstudio",
+      "projectLink": "https://total-wellness-studio.web.app/"
+    },
+    {
+      "image": "/portfolio/web/newgracemedia.svg",
+      "title": "Digital Agency Site",
+      "category": "Web - Bootstrap, JS",
+      "github": "https://github.com/DanielBryte/newgracemedia",
+      "projectLink": "https://newgracemediasite.web.app/"
+    }
+  ],
 
 
 
-    "designs": [
-      {
-        "image": "/portfolio/design/raym-unlimited-page.svg",
-        "title": "Raym Unlimited Page",
-        "category": "UI Design",
-        "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
-      },
-      {
-        "image": "/portfolio/design/trackeria.svg",
-        "title": "Trackeria Case Study",
-        "category": "UI/UX design and Case study",
-        "projectLink": "https://www.behance.net/gallery/179927617/Trackeria-Case-Study-%28Digital-Security-App%29"
-            },
-      {
-        "image": "/portfolio/design/logos.svg",
-        "title": "Logofolio 1.0",
-        "category": "Logo Design",
-        "projectLink": "https://www.behance.net/gallery/174859347/Logofolio-10-My-Logo-Collection"
-      },
-      {
-        "image": "/portfolio/design/beta-ai.svg",
-        "title": "Beta AI",
-        "category": "UI/UX Design",
-        "projectLink": "https://www.behance.net/gallery/172742683/AI-Personal-Assistant-Dashboard-UI-Design"
-      },
-      {
-        "image": "/portfolio/design/project774.svg",
-        "title": "Project 774",
-        "category": "UI Design",
-        "projectLink": "https://www.figma.com/file/X8hINqDHV0X9Eych7Kyg4Q/Event-Overvew?type=design&node-id=30%3A2&mode=design&t=CHXSGIpCnWXahFma-1"
-      },
-      {
-        "image": "/portfolio/web/portfolio-cover.svg",
-        "title": "Portfolio Design",
-        "category": "UI Design",
-        "projectLink": "https://www.figma.com/file/qC8SrdJBsci0v07XIY6nLm/Daniel-Bryte-v1?type=design&node-id=923-22&mode=design&t=ZYVAbT9rrLYgdKTB-0"
-      }
-    ],
+  "designs": [
+    {
+      "image": "/portfolio/design/raym-unlimited-page.svg",
+      "title": "Raym Unlimited Page",
+      "category": "UI Design",
+      "projectLink": "https://www.behance.net/gallery/169605293/Raym-Unlimited-Web-Design"
+    },
+    {
+      "image": "/portfolio/design/trackeria.svg",
+      "title": "Trackeria Case Study",
+      "category": "UI/UX design and Case study",
+      "projectLink": "https://www.behance.net/gallery/179927617/Trackeria-Case-Study-%28Digital-Security-App%29"
+    },
+    {
+      "image": "/portfolio/design/logos.svg",
+      "title": "Logofolio 1.0",
+      "category": "Logo Design",
+      "projectLink": "https://www.behance.net/gallery/174859347/Logofolio-10-My-Logo-Collection"
+    },
+    {
+      "image": "/portfolio/design/beta-ai.svg",
+      "title": "Beta AI",
+      "category": "UI/UX Design",
+      "projectLink": "https://www.behance.net/gallery/172742683/AI-Personal-Assistant-Dashboard-UI-Design"
+    },
+    {
+      "image": "/portfolio/design/project774.svg",
+      "title": "Project 774",
+      "category": "UI Design",
+      "projectLink": "https://www.figma.com/file/X8hINqDHV0X9Eych7Kyg4Q/Event-Overvew?type=design&node-id=30%3A2&mode=design&t=CHXSGIpCnWXahFma-1"
+    },
+    {
+      "image": "/portfolio/web/portfolio-cover.svg",
+      "title": "Portfolio Design",
+      "category": "UI Design",
+      "projectLink": "https://www.figma.com/file/qC8SrdJBsci0v07XIY6nLm/Daniel-Bryte-v1?type=design&node-id=923-22&mode=design&t=ZYVAbT9rrLYgdKTB-0"
+    }
+  ],
 
 
 
-    "ai": [
-      {
-        "image": "/portfolio/ml/tic-tac-toe-game.svg",
-        "title": "Tic-Tac-Toe Game",
-        "category": "CMD Game with Python",
-        "github": "https://github.com/DanielBryte/tic-tac-toe",
-        "projectLink": "https://github.com/DanielBryte/tic-tac-toe"
-      },
-      {
-        "image": "/portfolio/ml/",
-        "title": "ML",
-        "category": "",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": ""
-      },
-      {
-        "image": "/portfolio/ml/",
-        "title": "AI",
-        "category": "Medium",
-        "github": "https://github.com/amdanielbryte",
-        "projectLink": ""
-      }
-    ],
-    "mobile": [
-      {
-        "image": "/portfolio/mobile/calculator.png",
-        "title": "Calculator App",
-        "category": "Flutter - Dart",
-        "github": "https://github.com/DanielBryte/flutter_calculator_app"
-      },
-      {
-        "image": "/portfolio/mobile/whatsapp-ui.png",
-        "title": "Whatsapp UI",
-        "category": "Flutter - Dart",
-        "github": "https://github.com/danielbryte/whatsapp_ui"
-      },
-      {
-        "image": "/portfolio/mobile/social-app.png",
-        "title": "Chat App",
-        "category": "Flutter, Dart, Firebase",
-        "github": "https://github.com/danielbryte/social_media"
-      }
-    ],
-    "content": [
-      {
-        "image": "/portfolio/content/medium-article.svg",
-        "title": "Article",
-        "category": "Medium",
-        "projectLink": "https://medium.com/@ezedinirudaniel/a-the-complete-roadmap-for-learning-front-end-web-development-5402a787171c?source=user_profile---------2----------------------------"
-      },
-      {
-        "image": "/portfolio/content/video-content.svg",
-        "title": "Video Content",
-        "category": "Tech Talk",
-        "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCV-D6X0uhJZt8lDvZ_pEVFP"
-      },
-      {
-        "image": "/portfolio/content/blog-content.svg",
-        "title": "Blog content",
-        "category": "Blog",
-        "projectLink": "https://silly-beijinho-0b0589.netlify.app/blog/2023-02-02-elons-musk-starlink-in-nigeria-everything-you-need-to-know-from-purchase-to-installation/"
-      },
-      {
-        "image": "/portfolio/content/tech-tutorials.svg",
-        "title": "Tech Tutorials",
-        "category": "Tutorials",
-        "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCUWKSLUGtxFeldj5ewoQGMA"
-      },
-      {
-        "image": "/portfolio/content/video-reviews.svg",
-        "title": "Video Reviews",
-        "category": "YouTube",
-        "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCX-PsFENDdzx2Z1h4Yw-zGk"
-      },
-      {
-        "image": "/portfolio/content/newsletter.svg",
-        "title": "Newsletter",
-        "category": "Email",
-        "projectLink": "https://share.sender.net/campaigns/4W0I/big-tech-massive-layoffs-in-january-open-ai-pro-plan-and-more"
-      }
-    ]
-  }
+  "ai": [
+    {
+      "image": "/portfolio/ml/tic-tac-toe-game.svg",
+      "title": "Tic-Tac-Toe Game",
+      "category": "CMD Game with Python",
+      "github": "https://github.com/DanielBryte/tic-tac-toe",
+      "projectLink": "https://github.com/DanielBryte/tic-tac-toe"
+    },
+    {
+      "image": "/portfolio/ml/",
+      "title": "ML",
+      "category": "",
+      "github": "https://github.com/amdanielbryte",
+      "projectLink": ""
+    },
+    {
+      "image": "/portfolio/ml/",
+      "title": "AI",
+      "category": "Medium",
+      "github": "https://github.com/amdanielbryte",
+      "projectLink": ""
+    }
+  ],
+  "mobile": [
+    {
+      "image": "/portfolio/mobile/calculator.png",
+      "title": "Calculator App",
+      "category": "Flutter - Dart",
+      "github": "https://github.com/DanielBryte/flutter_calculator_app"
+    },
+    {
+      "image": "/portfolio/mobile/whatsapp-ui.png",
+      "title": "Whatsapp UI",
+      "category": "Flutter - Dart",
+      "github": "https://github.com/danielbryte/whatsapp_ui"
+    },
+    {
+      "image": "/portfolio/mobile/social-app.png",
+      "title": "Chat App",
+      "category": "Flutter, Dart, Firebase",
+      "github": "https://github.com/danielbryte/social_media"
+    }
+  ],
+  "content": [
+    {
+      "image": "/portfolio/content/medium-article.svg",
+      "title": "Article",
+      "category": "Medium",
+      "projectLink": "https://medium.com/@ezedinirudaniel/a-the-complete-roadmap-for-learning-front-end-web-development-5402a787171c?source=user_profile---------2----------------------------"
+    },
+    {
+      "image": "/portfolio/content/video-content.svg",
+      "title": "Video Content",
+      "category": "Tech Talk",
+      "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCV-D6X0uhJZt8lDvZ_pEVFP"
+    },
+    {
+      "image": "/portfolio/content/blog-content.svg",
+      "title": "Blog content",
+      "category": "Blog",
+      "projectLink": "https://silly-beijinho-0b0589.netlify.app/blog/2023-02-02-elons-musk-starlink-in-nigeria-everything-you-need-to-know-from-purchase-to-installation/"
+    },
+    {
+      "image": "/portfolio/content/tech-tutorials.svg",
+      "title": "Tech Tutorials",
+      "category": "Tutorials",
+      "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCUWKSLUGtxFeldj5ewoQGMA"
+    },
+    {
+      "image": "/portfolio/content/video-reviews.svg",
+      "title": "Video Reviews",
+      "category": "YouTube",
+      "projectLink": "https://www.youtube.com/playlist?list=PLyBNQ-FzsFCX-PsFENDdzx2Z1h4Yw-zGk"
+    },
+    {
+      "image": "/portfolio/content/newsletter.svg",
+      "title": "Newsletter",
+      "category": "Email",
+      "projectLink": "https://share.sender.net/campaigns/4W0I/big-tech-massive-layoffs-in-january-open-ai-pro-plan-and-more"
+    }
+  ]
+}
