@@ -1,5 +1,6 @@
 import data from '/data/data.json'
 import Image from 'next/image';
+import externalIcon from "/public/portfolio/link.png";
 
 
 const shimmer = (w, h) => `
@@ -71,7 +72,7 @@ const PortfolioCard = ({
                     <span className="card-description">
                         <span className="card-title">{title}</span>
                         <span className="card-links">
-                            <a href={projectLink} target="_blank"> <button>View Project</button>
+                            <a href={projectLink} target="_blank"> <button>View Project<Image src={externalIcon} width={15} height={15}/></button>
                             </a>
                         </span>
                     </span>
