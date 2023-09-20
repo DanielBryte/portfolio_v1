@@ -51,7 +51,8 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image:alt" content="Ezediniru Daniel Website" />
 
         {/* Twitter */}
-        <meta property="og:type" content="website" /><meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ezediniru Daniel" />
         <meta name="twitter:description" content="Frontend engineer and product Designer with 3 years of building experience" />
         <meta name="twitter:image" content="https://res.cloudinary.com/dhq4zyjbq/image/upload/v1688046890/portfolio_assets/ezediniru-daniel_ox0xmi.png" />
