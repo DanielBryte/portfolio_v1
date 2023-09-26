@@ -56,7 +56,7 @@ const Home = () => {
               <h2>I DESIGN I CODE I BUILD</h2>
 
               <div className="cta">
-                <Link href="/CV.pdf" target="_blank" className="cv">View My CV</Link>
+                <Link href="/portfolio" target="_blank" className="cv">View My Works</Link>
 
                 <Link href="/contact" className="cv">Contact Me</Link>
               </div>
@@ -64,16 +64,16 @@ const Home = () => {
 
               <div className="mobile-social">
                 <a href="https://www.linkedin.com/in/danielbryte/" target="_blank">
-                  <Image src="/socials/linkedin.svg" width="25" height="25" alt="linkedin" target="_blank" priority />
+                  <Image src="/socials/linkedin.svg" width="25" height="25" alt="linkedin" priority />
                 </a>
-                <a href="https://twitter.com/amdanielbryte">
-                  <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter" target="_blank" priority />
+                <a href="https://twitter.com/amdanielbryte" target="_blank">
+                  <Image src="/socials/twitter.svg" width="25" height="25" alt="Twitter"  priority />
                 </a>
                 <a href="https://www.behance.net/amdanielbryte" target="_blank">
                   <Image src="/socials/behance.svg" width="25" height="25" alt='Behance' priority />
                 </a>
-                <a href="https://github.com/DanielBryte">
-                  <Image src="/socials/github.svg" width="25" height="25" alt="Github" target="_blank" priority />
+                <a href="https://github.com/DanielBryte" target="_blank">
+                  <Image src="/socials/github.svg" width="25" height="25" alt="Github" priority />
                 </a>
               </div>
             </div>
