@@ -15,11 +15,25 @@
       "projectLink": "https://daniel-portfolio-v1.vercel.app/"
     },
     {
+      "image": "/portfolio/web/saabinc.png",
+      "title": "Corporate Website",
+      "category": "Web - NextJS, tailwindCSS,Sanity",
+      "github": "https://github.com/DanielBryte/saabinc-website",
+      "projectLink": "https://www.saabincltd.com/"
+    },
+    {
       "image": "/portfolio/web/linkme.png",
       "title": "LinkMe",
       "category": "Web - Typescript/NextJS",
       "github": "https://github.com/DanielBryte/linkme",
       "projectLink": "https://linkme-ashy.vercel.app/"
+    },
+    {
+      "image": "/portfolio/web/wellness.png",
+      "title": "Fitness Site",
+      "category": "Web - NextJS, tailwindCSS, Sanity",
+      "github": "https://github.com/DanielBryte/hsfwellness",
+      "projectLink": "https://hsfwellness.vercel.app/"
     },
     {
       "image": "/portfolio/web/techburst.svg",
@@ -41,6 +55,13 @@
       "category": "Web - JS, JamStack, Netlify/CMS",
       "github": "https://github.com/DanielBryte/techgruvcom",
       "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
+    },
+    {
+      "image": "/portfolio/web/defimerce.png",
+      "title": "Defimerce",
+      "category": "Web - NextJS, tailwindCS",
+      "github": "https://github.com/DanielBryte/defimerce",
+      "projectLink": "https://defimerce.vercel.app/"
     },
     {
       "image": "/portfolio/web/acabeta.png",
