@@ -29,13 +29,6 @@
       "projectLink": "https://linkme-ashy.vercel.app/"
     },
     {
-      "image": "/portfolio/web/wellness.png",
-      "title": "Fitness Site",
-      "category": "Web - NextJS, tailwindCSS, Sanity",
-      "github": "https://github.com/DanielBryte/hsfwellness",
-      "projectLink": "https://hsfwellness.vercel.app/"
-    },
-    {
       "image": "/portfolio/web/techburst.svg",
       "title": "TechBurst website",
       "category": "Frontend web- React, CSS",
@@ -76,6 +69,13 @@
       "category": "Web - HTML/CSS, JS",
       "github": "https://github.com/DanielBryte/totalwellnessstudio",
       "projectLink": "https://total-wellness-studio.web.app/"
+    },
+    {
+      "image": "/portfolio/web/wellness.png",
+      "title": "Fitness Site",
+      "category": "Web - NextJS, tailwindCSS, Sanity",
+      "github": "https://github.com/DanielBryte/hsfwellness",
+      "projectLink": "https://hsfwellness.vercel.app/"
     },
     {
       "image": "/portfolio/web/newgracemedia.svg",
