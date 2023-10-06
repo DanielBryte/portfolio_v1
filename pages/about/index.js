@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Picture from "/public/picture.png";
 import { motion } from "framer-motion";
