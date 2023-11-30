@@ -64,7 +64,11 @@
 .contact-form button {
     margin-bottom: 5rem;
     margin-top: 2rem;
-    padding: 0.8rem 4rem;
-    font-size: 1.2rem;
+    min-width: 12rem !important;
+    min-height: 3rem;
+    font-size: 1.2rem !important;
     font-weight: 600;
+    border-radius: 20rem;
+    background-color: white !important;
+    color: black !important;
 }
