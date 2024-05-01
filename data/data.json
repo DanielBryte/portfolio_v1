@@ -1,6 +1,28 @@
 {
   "webs": [
     {
+      "image": "/portfolio/web/dashboard.png",
+      "title": "BuyTix                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ",
+      "category": "Fullstack - NextJS, tailwindCSS,Stripe, MongoDB",
+      "github": "https://github.com/DanielBryte",
+      "projectLink": "https://www.buytix.co"
+    },
+    {
+      "image": "/portfolio/web/acabeta.png",
+      "title": "Acabeta Web App",
+      "category": "Fullstack web",
+      "github": "https://github.com/danielbryte/acabeta",
+      "projectLink": "https://www.acabeta.com/home"
+    },
+    {
+      "image": "/portfolio/web/techgruv.svg",
+      "title": "TechGruv Blog",
+      "category": "Fullstack - JS, JamStack, Netlify/CMS",
+      "github": "https://github.com/DanielBryte/techgruvcom",
+      "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
+    },
+
+    {
       "image": "/portfolio/web/course-connect.png",
       "title": "Course Connect",
       "category": "Fullstack - JS/NextJS, TailwindCSS, MongoDB",
@@ -33,7 +55,7 @@
       "title": "TechBurst website",
       "category": "Frontend web- React, CSS",
       "github": "https://github.com/i4gaefunai/techburstlive",
-      "projectLink": "https://www.techburst.live"
+      "projectLink": "https://www.techburst.vercel.app"
     },
     {
       "image": "/portfolio/web/trackeria.svg",
@@ -41,27 +63,6 @@
       "category": "Web - NextJS",
       "github": "https://github.com/DanielBryte/trackeria",
       "projectLink": "https://trackeria.vercel.app/"
-    },
-    {
-      "image": "/portfolio/web/techgruv.svg",
-      "title": "TechGruv Blog",
-      "category": "Web - JS, JamStack, Netlify/CMS",
-      "github": "https://github.com/DanielBryte/techgruvcom",
-      "projectLink": "https://silly-beijinho-0b0589.netlify.app/"
-    },
-    {
-      "image": "/portfolio/web/defimerce.png",
-      "title": "Defimerce",
-      "category": "Web - NextJS, tailwindCS",
-      "github": "https://github.com/DanielBryte/defimerce",
-      "projectLink": "https://defimerce.vercel.app/"
-    },
-    {
-      "image": "/portfolio/web/acabeta.png",
-      "title": "Acabeta Web App",
-      "category": "Fullstack web",
-      "github": "https://github.com/danielbryte/acabeta",
-      "projectLink": "https://www.acabeta.com"
     },
     {
       "image": "/portfolio/web/totalwellnessstudio.svg",

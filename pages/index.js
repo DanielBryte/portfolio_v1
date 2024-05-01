@@ -24,19 +24,7 @@ const Home = () => {
     <div>
       <PageAnimation />
       <main className="body">
-        <div className="img-wrap">
-          <Image
-            className="home-img"
-            width="100%"
-            height="100%"
-            priority
-            lazy="true"
-            placeholder="blur"
-            src={HomeImg}
-            alt="Ezediniru Daniel"
-            blurDataURL="LJDT9WMxlVt7?wkCXTtR%Ma|V?of"
-          />
-        </div>
+
 
         <motion.section
           className="home"
@@ -53,7 +41,7 @@ const Home = () => {
 
               <h1>Daniel Ezediniru</h1>
 
-              <h2>I DESIGN I CODE I BUILD</h2>
+              <h2>Fullstack Developer and Product Designer</h2>
 
               <div className="cta">
                 <Link href="/portfolio" target="_blank" className="cv">View My Works</Link>

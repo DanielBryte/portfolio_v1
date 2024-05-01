@@ -23,8 +23,8 @@ function About() {
         <section className="section">
           <div className="section-heading">
             <h1>About</h1>
-            <h2>This comprises my experience in tech, from content creation to web, mobile development, and UI/UX design. I don&apos;t just code or design. I also build and create problem solving products and insightful content.</h2>
-          </div>
+            <h2>This comprises my experience in tech, from web development, UI/UX design and content creation. I don&apos;t just code or design. I also build and create problem solving products and insightful content.</h2>
+          </div> 
 
           <div className="profile">
             <div>
@@ -34,9 +34,9 @@ function About() {
 
             <div className="bio">
 
-              <h2>Ezediniru Daniel</h2>
+              <h2>Daniel Ezediniru</h2>
 
-              <p>Hi, I am a Frontend Engineer and a Product Designer passionate about solving real-life problems through technological skills.</p>
+              <p>Hi, I am a Fullstack Developer and a Product Designer passionate about solving real-life problems through technological skills.</p>
               <p>A developer and designer with an entrepreneurship mindset. I approach every project with a creative and analytical mindset following the industry&apos;s standard, looking forward to the exciting challenges that lie ahead.</p>
 
               <Link href="/contact" className="button">Get In Touch</Link>
@@ -58,6 +58,16 @@ function About() {
             <div class="background-tl-container">
               <h3>Work Experience</h3>
               <ul class="tl">
+              <li class="tl-item">
+                  <div class="timestamp">
+                    Jan 2024 - May 2024
+                  </div>
+                  <div class="item-title">Fullstack Developer/Designer at (Contract)</div>
+                  <div class="item-detail">Designed and developed the platform from scratch.</div>
+                  <div class="item-detail">I handled the product design, frontend, and backend development single-handedly.</div>
+                </li>
+
+
                 <li class="tl-item">
                   <div class="timestamp">
                     Sept 2022 - Aug 2023
@@ -92,15 +102,6 @@ function About() {
                   <div class="item-title">Content Creator at Scooper News</div>
                   <div class="item-detail">Developed and researched on graphics designs and infographics for all content I created for Scooper News.</div>
                   <div class="item-detail">Developed a content calendar and posting schedule while carefully following all instructions given, crossed 2 million views with my content.</div>
-                </li>
-
-                <li class="tl-item">
-                  <div class="timestamp">
-                    Sept 2019 - October 2020
-                  </div>
-                  <div class="item-title">Content Writer at Opera News</div>
-                  <div class="item-detail">Conducted research, edited and proofread written articles before publication</div>
-                  <div class="item-detail">Collaborated with other creators to drive the SEO and ranking to 2,568 in category rank with a monthly visit of 2.5 million readers.</div>
                 </li>
 
               </ul>

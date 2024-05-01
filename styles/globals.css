@@ -23,6 +23,8 @@
   --inactive-text-color: #a7a7a7;
   --font-family: "Segoe UI", sans-serif;
   --px-gray: #a7a7a7;
+  --gradient-primary: #2d21d4;
+  --gradient-white: #ffffff;
 }
 
 body {

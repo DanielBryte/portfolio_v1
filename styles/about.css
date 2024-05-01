@@ -121,6 +121,9 @@
     display: flex;
     justify-content: center;
   }
+  .about .button{
+    border-radius:  999px;
+  }
   
   .about .skills {
     display: flex;
@@ -146,6 +149,7 @@
     padding: 0.8rem 0;
     margin: 0 0.5rem;
     transition: all .5s;
+    border-radius: 999px;
   }
 
   .about-cv:hover{

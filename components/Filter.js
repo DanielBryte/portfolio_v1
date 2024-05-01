@@ -15,7 +15,7 @@ const Portfolio = () => {
     const portfolioItems = [
         { title: <Webcards />, category: 'web' },
         { title: <DesignCards />, category: 'design' },
-        { title: <Mobilecards />, category: 'mobile' },
+        // { title: <Mobilecards />, category: 'mobile' },
         // { title: <AIcards />, category: 'ML/AI' },
         { title: <Contentcards />, category: 'content' }
     ];
@@ -74,13 +74,13 @@ const Portfolio = () => {
                         Design
                     </button>
 
-                    <button
+                    {/* <button
                         value="mobile"
                         onClick={handleCategoryClick}
                         className={selectedCategory === 'mobile' ? 'active' : ''}
                     >
                         Mobile
-                    </button>
+                    </button> */}
 
                     {/* <button
                         value="ML/AI"
