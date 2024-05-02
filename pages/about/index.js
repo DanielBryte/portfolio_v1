@@ -62,7 +62,7 @@ function About() {
                   <div class="timestamp">
                     Jan 2024 - May 2024
                   </div>
-                  <div class="item-title">Fullstack Developer/Designer at (Contract)</div>
+                  <div class="item-title">Fullstack Developer at BuyTix (Contract)</div>
                   <div class="item-detail">Designed and developed the platform from scratch.</div>
                   <div class="item-detail">I handled the product design, frontend, and backend development single-handedly.</div>
                 </li>
