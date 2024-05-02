@@ -9,7 +9,7 @@ const Support = () => {
     <div className="support-div">
       <p className="support-note">Want to support? Buy me a coffee</p>
       <div className="support-wrapper">
-        <a className="support" href="https://www.buymeacoffee.com/danielbryte" target="_blank"><Image src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg" width="50" height="50" alt="Buy Me A Coffee"/></a>
+        <a className="support" href="https://www.buymeacoffee.com/amdanielbryte" target="_blank"><Image src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg" width="50" height="50" alt="Buy Me A Coffee"/></a>
         <div className="ping"></div>
       </div>
     </div>
