@@ -9,7 +9,11 @@ const Support = () => {
     <div className="support-div">
       <p className="support-note">Want to connect ? Schedule a call with me</p>
       <div className="support-wrapper">
+<<<<<<< HEAD
         <a className="support" href="https://www.buymeacoffee.com/danielbryte" target="_blank"><PhoneCall className="w-8 h-8" /></a>
+=======
+        <a className="support" href="https://www.buymeacoffee.com/amdanielbryte" target="_blank"><Image src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg" width="50" height="50" alt="Buy Me A Coffee"/></a>
+>>>>>>> 3d1d55069284d6803b478465a42d30921baaeebe
         <div className="ping"></div>
       </div>
     </div>
