@@ -122,9 +122,13 @@ a {
 li {
   list-style: none;
 }
-
 .mobile-social {
-  display: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  position: absolute;
+  bottom: 1%;
 }
 
 
