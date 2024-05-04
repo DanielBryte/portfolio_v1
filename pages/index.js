@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import PageAnimation from "components/PageAnimation";
-import HomeImg from "/public/home-img.png";
 import Image from "next/image";
 import Link from "next/link";
+import { PhoneCall } from "lucide-react";
 
 const Support = () => {
   return (
     <div className="support-div">
-      <p className="support-note">Want to support? Buy me a coffee</p>
+      <p className="support-note">Want to connect ? Schedule a call with me</p>
       <div className="support-wrapper">
-        <a className="support" href="https://www.buymeacoffee.com/danielbryte" target="_blank"><Image src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg" width="50" height="50" alt="Buy Me A Coffee"/></a>
+        <a className="support" href="https://www.buymeacoffee.com/danielbryte" target="_blank"><PhoneCall className="w-8 h-8" /></a>
         <div className="ping"></div>
       </div>
     </div>

@@ -59,7 +59,8 @@ export default function Index() {
                 <section className="section">
                     <div className="section-heading">
                         <h1>Contact</h1>
-                        <h2>Please reach out to me for collaboration, partnership, open roles, mentorship, and business discussion :)  </h2>
+                        <h2>Please reach out to me for collaboration, partnership, open roles, mentorship, and business discussion :) <br></br>Email at: <a href="mailto:ezedinirudaniel@gmail.com"><span className="mail">ezedinirudaniel@gmail.com</span></a>
+</h2>
                     </div>
 
                     <form className="contact-form" onSubmit={handleFormSubmit}>
@@ -136,7 +137,7 @@ export default function Index() {
                             </textarea>
                         </div>
 
-                        <button type="submit">{submitting ? 'submitting...' : 'submit'}</button>
+                        <button type="submit">{submitting ? 'Submitting...' : 'Submit'}</button>
                     </form>
                 </section>
             </main>

@@ -1,4 +1,6 @@
-
+.mail{
+color: rgb(8, 74, 255);
+}
 .contact-form {
     display: flex;
     flex-direction: column;
